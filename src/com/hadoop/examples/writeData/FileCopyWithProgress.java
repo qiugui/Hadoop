@@ -13,7 +13,13 @@ import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.util.Progressable;
  /** 
 * @ClassName: FileCopyWithProgress 
-* @Description: 将本地文件复制到Hadoop文件系统 
+* @Description: 将本地文件复制到Hadoop文件系统
+* 				
+* 				注：如果打包成jar包，将其放入linux中，其args的两个参数分别为
+* 					linux的文件系统(/home/hadoop/*.*) hdfs文件系统
+* 				        如果是在Windows中的Eclipse运行该java文件，其args的两个参数分别为
+* 					Windows的文件系统(c:/*.*) hdfs文件系统
+* 
 * @author qiugui 
 * @date 2015年1月8日 上午11:53:08 
 *  

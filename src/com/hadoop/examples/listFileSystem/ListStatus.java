@@ -69,13 +69,19 @@ public class ListStatus {
 	public void listFile(FileStatus status) throws Exception{
 		if(status.isFile()){
 			
-			System.out.println("包含文件"+status.getPath().toString());
+			System.out.println("包含文件"+status.getPath().toString()+" "+status.getGroup()+" "+status.getOwner()+" "+status.getPermission().toString());
 //			System.out.println("文件内容");
 //			this.catFile(status.getPath());
 
 		} else {
 			System.out.println("");
-			System.out.println("文件夹  "+status.getPath().toString());
+			System.out.println("文件夹  "+status.getPath().toString()+" "+status.getGroup()+" "+status.getOwner()+" "+status.getPermission().toString());
+			
+			//删除对应的文件delete(Path path, boolean recurisive)，其中涉及到权限问题，可修改权限hadoop fs -chmod 755 /
+//			if("hdfs://Master.hadoop:9000/system".equals(status.getPath().toString())){
+//				System.out.println("删除该文件夹");
+//				fs.delete(status.getPath(), true);
+//			}
 			Path path = new Path(status.getPath().toString());
 			FileStatus[] statu = fs.listStatus(path);
 			for (FileStatus f : statu){
