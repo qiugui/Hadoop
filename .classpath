@@ -103,7 +103,7 @@
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.5.0.jar" sourcepath="C:/hadoop-2.5.0/share/hadoop/mapreduce/sources/hadoop-mapreduce-client-core-2.5.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/common/lib/zookeeper-3.4.6.jar"/>

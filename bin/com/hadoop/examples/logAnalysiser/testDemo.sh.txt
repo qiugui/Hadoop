@@ -1,0 +1,5 @@
+./bin/hadoop dfs -rmr /user/oracle/dfs/output* 
+./bin/hadoop dfs -rmr /user/oracle/dfs/input 
+./bin/hadoop dfs -mkdir /user/oracle/dfs/input 
+./bin/hadoop dfs -copyFromLocal ./input/*.log /user/oracle/dfs/input/ 
+./bin/hadoop jar ./hadoopTest.jar /hadoop/hadoop-0.23.0/input /hadoop/hadoop-0.23.0/output
