@@ -1,153 +1,3 @@
-Handling deprecation for dfs.namenode.delegation.key.update-interval
-Handling deprecation for hadoop.rpc.protection
-Handling deprecation for fs.permissions.umask-mode
-Handling deprecation for fs.s3.sleepTimeSeconds
-Handling deprecation for ha.health-monitor.rpc-timeout.ms
-Handling deprecation for hadoop.http.staticuser.user
-Handling deprecation for fs.AbstractFileSystem.viewfs.impl
-Handling deprecation for fs.ftp.host
-Handling deprecation for yarn.nodemanager.linux-container-executor.nonsecure-mode.local-user
-Handling deprecation for hadoop.http.authentication.kerberos.keytab
-Handling deprecation for dfs.namenode.fs-limits.max-blocks-per-file
-Handling deprecation for mapreduce.tasktracker.http.threads
-Handling deprecation for mapreduce.tasktracker.dns.nameserver
-Handling deprecation for dfs.client.block.write.replace-datanode-on-failure.enable
-Handling deprecation for io.compression.codec.bzip2.library
-Handling deprecation for mapreduce.map.skip.maxrecords
-Handling deprecation for dfs.client.use.legacy.blockreader.local
-Handling deprecation for dfs.namenode.checkpoint.dir
-Handling deprecation for mapreduce.job.speculative.slownodethreshold
-Handling deprecation for mapreduce.job.maxtaskfailures.per.tracker
-Handling deprecation for net.topology.node.switch.mapping.impl
-Handling deprecation for mapreduce.shuffle.max.connections
-Handling deprecation for mapreduce.jobhistory.loadedjobs.cache.size
-Handling deprecation for yarn.client.application-client-protocol.poll-interval-ms
-Handling deprecation for yarn.nodemanager.localizer.address
-Handling deprecation for dfs.namenode.list.cache.pools.num.responses
-Handling deprecation for nfs.server.port
-Handling deprecation for mapreduce.client.output.filter
-Handling deprecation for ha.zookeeper.parent-znode
-Handling deprecation for mapreduce.jobtracker.persist.jobstatus.hours
-Handling deprecation for yarn.nodemanager.resource.cpu-vcores
-Handling deprecation for mapreduce.jobhistory.http.policy
-Handling deprecation for yarn.resourcemanager.webapp.delegation-token-auth-filter.enabled
-Handling deprecation for s3native.stream-buffer-size
-Handling deprecation for io.seqfile.local.dir
-Handling deprecation for yarn.log-aggregation.retain-check-interval-seconds
-Handling deprecation for fs.s3n.multipart.copy.block.size
-Handling deprecation for dfs.datanode.sync.behind.writes
-Handling deprecation for yarn.resourcemanager.zk-acl
-Handling deprecation for hadoop.ssl.keystores.factory.class
-Handling deprecation for mapreduce.job.split.metainfo.maxsize
-Handling deprecation for fs.s3.maxRetries
-Handling deprecation for dfs.namenode.stale.datanode.interval
-Handling deprecation for mapreduce.task.io.sort.mb
-Handling deprecation for yarn.resourcemanager.zk-state-store.parent-path
-Handling deprecation for yarn.app.mapreduce.client-am.ipc.max-retries
-Handling deprecation for fs.client.resolve.remote.symlinks
-Handling deprecation for mapreduce.reduce.cpu.vcores
-Handling deprecation for yarn.client.failover-retries
-Handling deprecation for mapreduce.jobhistory.address
-Handling deprecation for hadoop.ssl.enabled
-Handling deprecation for dfs.replication.max
-Handling deprecation for dfs.namenode.name.dir
-Handling deprecation for dfs.datanode.https.address
-Handling deprecation for ipc.client.kill.max
-Handling deprecation for mapreduce.job.committer.setup.cleanup.needed
-Handling deprecation for dfs.client.domain.socket.data.traffic
-Handling deprecation for yarn.nodemanager.localizer.cache.target-size-mb
-Handling deprecation for yarn.resourcemanager.admin.client.thread-count
-Handling deprecation for dfs.block.access.token.enable
-Handling deprecation for dfs.datanode.address
-Handling deprecation for mapreduce.jobtracker.restart.recover
-Handling deprecation for ipc.client.connect.max.retries
-Handling deprecation for yarn.timeline-service.store-class
-Handling deprecation for dfs.short.circuit.shared.memory.watcher.interrupt.check.ms
-Handling deprecation for hadoop.tmp.dir
-Handling deprecation for dfs.datanode.handler.count
-Handling deprecation for yarn.resourcemanager.ha.automatic-failover.embedded
-Handling deprecation for yarn.timeline-service.ttl-ms
-Handling deprecation for mapreduce.task.profile.map.params
-Handling deprecation for yarn.resourcemanager.nodemanagers.heartbeat-interval-ms
-Handling deprecation for mapreduce.map.speculative
-Handling deprecation for mapreduce.job.map.class
-Handling deprecation for yarn.nodemanager.recovery.dir
-Handling deprecation for mapreduce.job.counters.max
-Handling deprecation for yarn.resourcemanager.keytab
-Handling deprecation for dfs.namenode.max.extra.edits.segments.retained
-Handling deprecation for dfs.webhdfs.user.provider.user.pattern
-Handling deprecation for dfs.client.mmap.enabled
-Handling deprecation for mapreduce.map.log.level
-Handling deprecation for dfs.client.file-block-storage-locations.timeout.millis
-Handling deprecation for yarn.app.mapreduce.am.scheduler.heartbeat.interval-ms
-Handling deprecation for hadoop.fuse.timer.period
-Handling deprecation for fs.trash.checkpoint.interval
-Handling deprecation for dfs.journalnode.http-address
-Handling deprecation for yarn.app.mapreduce.am.staging-dir
-Handling deprecation for mapreduce.tasktracker.local.dir.minspacestart
-Handling deprecation for yarn.nm.liveness-monitor.expiry-interval-ms
-Handling deprecation for ha.health-monitor.check-interval.ms
-Handling deprecation for mapreduce.reduce.shuffle.merge.percent
-Handling deprecation for dfs.namenode.retrycache.heap.percent
-Handling deprecation for ipc.client.connect.timeout
-Handling deprecation for mapreduce.output.fileoutputformat.compress
-Handling deprecation for yarn.nodemanager.local-dirs
-Handling deprecation for yarn.nodemanager.recovery.enabled
-Handling deprecation for io.native.lib.available
-Handling deprecation for yarn.resourcemanager.am.max-attempts
-Handling deprecation for s3.replication
-Handling deprecation for mapreduce.input.fileinputformat.inputdir
-Handling deprecation for fs.AbstractFileSystem.har.impl
-Handling deprecation for dfs.image.compress
-Handling deprecation for mapreduce.reduce.input.buffer.percent
-Handling deprecation for yarn.nodemanager.webapp.address
-Handling deprecation for dfs.datanode.available-space-volume-choosing-policy.balanced-space-preference-fraction
-Handling deprecation for dfs.namenode.edit.log.autoroll.multiplier.threshold
-Handling deprecation for hadoop.security.group.mapping.ldap.ssl
-Handling deprecation for dfs.namenode.checkpoint.check.period
-Handling deprecation for fs.defaultFS
-Handling deprecation for dfs.client.slow.io.warning.threshold.ms
-Handling deprecation for yarn.app.mapreduce.am.job.committer.commit-window
-Handling deprecation for hadoop.security.group.mapping.ldap.search.attr.group.name
-Handling deprecation for yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage
-Handling deprecation for yarn.nodemanager.container-monitor.procfs-tree.smaps-based-rss.enabled
-Handling deprecation for mapreduce.job.submithostname
-Handling deprecation for mapreduce.map.sort.spill.percent
-Handling deprecation for dfs.namenode.http-address
-Handling deprecation for hadoop.ssl.server.conf
-Handling deprecation for mapreduce.ifile.readahead
-Handling deprecation for s3native.replication
-Handling deprecation for yarn.client.nodemanager-client-async.thread-pool-max-size
-Handling deprecation for mapreduce.jobtracker.staging.root.dir
-Handling deprecation for mapreduce.jobhistory.admin.address
-Handling deprecation for dfs.namenode.startup.delay.block.deletion.sec
-Handling deprecation for yarn.nodemanager.health-checker.interval-ms
-Handling deprecation for dfs.namenode.checkpoint.max-retries
-Handling deprecation for s3.stream-buffer-size
-Handling deprecation for ftp.client-write-packet-size
-Handling deprecation for dfs.datanode.fsdatasetcache.max.threads.per.volume
-Handling deprecation for mapreduce.output.fileoutputformat.compress.codec
-Handling deprecation for yarn.timeline-service.keytab
-Handling deprecation for mapreduce.jobhistory.webapp.address
-Handling deprecation for mapreduce.task.userlog.limit.kb
-Handling deprecation for yarn.app.mapreduce.task.container.log.backups
-Handling deprecation for dfs.heartbeat.interval
-Handling deprecation for ha.zookeeper.session-timeout.ms
-Handling deprecation for hadoop.http.authentication.signature.secret.file
-Handling deprecation for hadoop.fuse.connection.timeout
-Handling deprecation for mapreduce.input.fileinputformat.numinputfiles
-Handling deprecation for yarn.nodemanager.log-aggregation.compression-type
-Handling deprecation for yarn.nodemanager.log-dirs
-Handling deprecation for yarn.app.mapreduce.am.resource.mb
-Handling deprecation for hadoop.security.groups.cache.secs
-Handling deprecation for yarn.nodemanager.container-monitor.interval-ms
-Handling deprecation for mapreduce.jobhistory.recovery.store.class
-Handling deprecation for s3.client-write-packet-size
-Handling deprecation for mapreduce.jobtracker.instrumentation
-Handling deprecation for dfs.replication
-Handling deprecation for mapreduce.shuffle.transfer.buffer.size
-Handling deprecation for hadoop.security.group.mapping.ldap.directory.search.timeout
-Handling deprecation for dfs.datanode.available-space-volume-choosing-policy.balanced-space-threshold
 Handling deprecation for hadoop.work.around.non.threadsafe.getpwuid
 Handling deprecation for yarn.app.mapreduce.client-am.ipc.max-retries-on-timeouts
 Handling deprecation for yarn.nodemanager.address
@@ -428,10 +278,10 @@ Handling deprecation for yarn.resourcemanager.webapp.https.address
 Handling deprecation for yarn.nodemanager.vmem-pmem-ratio
 Handling deprecation for dfs.namenode.checkpoint.period
 Handling deprecation for dfs.ha.automatic-failover.enabled
-Submitting tokens for job: job_local2104004351_0001
-file:/tmp/hadoop-Administrator/mapred/staging/Administrator2104004351/.staging/job_local2104004351_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
-file:/tmp/hadoop-Administrator/mapred/staging/Administrator2104004351/.staging/job_local2104004351_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
+Submitting tokens for job: job_local1277777919_0001
+file:/tmp/hadoop-hadoop/mapred/staging/hadoop1277777919/.staging/job_local1277777919_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+file:/tmp/hadoop-hadoop/mapred/staging/hadoop1277777919/.staging/job_local1277777919_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
 Handling deprecation for all properties in config...
 Handling deprecation for mapreduce.jobtracker.address
 Handling deprecation for yarn.resourcemanager.scheduler.monitor.policies
@@ -1045,114 +895,668 @@ Handling deprecation for yarn.resourcemanager.webapp.https.address
 Handling deprecation for yarn.nodemanager.vmem-pmem-ratio
 Handling deprecation for dfs.namenode.checkpoint.period
 Handling deprecation for dfs.ha.automatic-failover.enabled
-file:/tmp/hadoop-Administrator/mapred/local/localRunner/Administrator/job_local2104004351_0001/job_local2104004351_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
-file:/tmp/hadoop-Administrator/mapred/local/localRunner/Administrator/job_local2104004351_0001/job_local2104004351_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1277777919_0001/job_local1277777919_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+file:/tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/job_local1277777919_0001/job_local1277777919_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
 The url to track the job: http://localhost:8080/
-Running job: job_local2104004351_0001
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+Running job: job_local1277777919_0001
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
 OutputCommitter set in config null
 OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
 /output/_temporary/0: masked=rwxr-xr-x
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator sending #3
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator got value #3
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator sending #4
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator got value #4
-Call: delete took 8ms
-job_local2104004351_0001
-org.apache.hadoop.security.AccessControlException: Permission denied: user=Administrator, access=WRITE, inode="/":hadoop:supergroup:drwxr-xr-x
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkFsPermission(FSPermissionChecker.java:271)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:257)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:238)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:179)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:5904)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:5886)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkAncestorAccess(FSNamesystem.java:5860)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInternal(FSNamesystem.java:3793)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInt(FSNamesystem.java:3763)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:3737)
-	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:778)
-	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:573)
-	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
-	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:585)
-	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:928)
-	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2013)
-	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2009)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at javax.security.auth.Subject.doAs(Subject.java:422)
-	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
-	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2007)
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: mkdirs took 8ms
+Starting mapper thread pool executor.
+Max local threads: 1
+Map tasks to process: 1
+Waiting for map tasks
+Starting task: attempt_local1277777919_0001_m_000000_0
+currentIndex 0   0:0
+mapreduce.cluster.local.dir for child : /tmp/hadoop-hadoop/mapred/local/localRunner//hadoop/jobcache/job_local1277777919_0001/attempt_local1277777919_0001_m_000000_0
+using new api for output committer
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@161ef67
+Processing split: hdfs://Master.Hadoop:9000/input/test1.txt:0+18
+Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+(EQUATOR) 0 kvi 26214396(104857584)
+mapreduce.task.io.sort.mb: 100
+soft limit at 83886080
+bufstart = 0; bufvoid = 104857600
+kvstart = 26214396; length = 6553600
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #4
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #4
+Call: getBlockLocations took 3ms
+newInfo = LocatedBlocks{
+  fileLength=18
+  underConstruction=false
+  blocks=[LocatedBlock{BP-119039429-192.168.216.130-1421202960140:blk_1073741847_1023; getBlockSize()=18; corrupt=false; offset=0; locs=[192.168.216.133:50010, 192.168.216.134:50010, 192.168.216.132:50010]}]
+  lastLocatedBlock=LocatedBlock{BP-119039429-192.168.216.130-1421202960140:blk_1073741847_1023; getBlockSize()=18; corrupt=false; offset=0; locs=[192.168.216.133:50010, 192.168.216.134:50010, 192.168.216.132:50010]}
+  isLastBlockComplete=true}
+Connecting to datanode 192.168.216.133:50010
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #5
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #5
+Call: getServerDefaults took 0ms
 
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-	at org.apache.hadoop.ipc.RemoteException.instantiateException(RemoteException.java:106)
-	at org.apache.hadoop.ipc.RemoteException.unwrapRemoteException(RemoteException.java:73)
-	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:2589)
-	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:2558)
-	at org.apache.hadoop.hdfs.DistributedFileSystem$16.doCall(DistributedFileSystem.java:820)
-	at org.apache.hadoop.hdfs.DistributedFileSystem$16.doCall(DistributedFileSystem.java:816)
-	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
-	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:816)
-	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:809)
-	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:1815)
-	at org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.setupJob(FileOutputCommitter.java:291)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:511)
-Caused by: org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.security.AccessControlException): Permission denied: user=Administrator, access=WRITE, inode="/":hadoop:supergroup:drwxr-xr-x
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkFsPermission(FSPermissionChecker.java:271)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:257)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.check(FSPermissionChecker.java:238)
-	at org.apache.hadoop.hdfs.server.namenode.FSPermissionChecker.checkPermission(FSPermissionChecker.java:179)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:5904)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkPermission(FSNamesystem.java:5886)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkAncestorAccess(FSNamesystem.java:5860)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInternal(FSNamesystem.java:3793)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirsInt(FSNamesystem.java:3763)
-	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.mkdirs(FSNamesystem.java:3737)
-	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.mkdirs(NameNodeRpcServer.java:778)
-	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.mkdirs(ClientNamenodeProtocolServerSideTranslatorPB.java:573)
-	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
-	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:585)
-	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:928)
-	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2013)
-	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2009)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at javax.security.auth.Subject.doAs(Subject.java:422)
-	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
-	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2007)
-
-	at org.apache.hadoop.ipc.Client.call(Client.java:1411)
-	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
-	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
-	at com.sun.proxy.$Proxy9.mkdirs(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:187)
-	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:102)
-	at com.sun.proxy.$Proxy9.mkdirs(Unknown Source)
-	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:508)
-	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:2587)
-	... 9 more
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-Job job_local2104004351_0001 running in uber mode : false
- map 0% reduce 0%
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-Job job_local2104004351_0001 failed with state FAILED due to: NA
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getCounters(Job.java:753)
-Counters: 0
-PrivilegedAction as:Administrator (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-stopping client from cache: org.apache.hadoop.ipc.Client@3c0a50da
-removing client from cache: org.apache.hadoop.ipc.Client@3c0a50da
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@3c0a50da
+Starting flush of map output
+Spilling map output
+bufstart = 0; bufend = 34; bufvoid = 104857600
+kvstart = 26214396(104857584); kvend = 26214384(104857536); length = 13/6553600
+Finished spill 0
+Task:attempt_local1277777919_0001_m_000000_0 is done. And is in the process of committing
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #6
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #6
+Call: getFileInfo took 3ms
+map
+Task 'attempt_local1277777919_0001_m_000000_0' done.
+Finishing task: attempt_local1277777919_0001_m_000000_0
+map task executor complete.
+Starting reduce thread pool executor.
+Max local threads: 1
+Reduce tasks to process: 1
+Waiting for reduce tasks
+Starting task: attempt_local1277777919_0001_r_000000_0
+currentIndex 0   0:0
+mapreduce.cluster.local.dir for child : /tmp/hadoop-hadoop/mapred/local/localRunner//hadoop/jobcache/job_local1277777919_0001/attempt_local1277777919_0001_r_000000_0
+using new api for output committer
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2ebfab3e
+Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@19a0fafd
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+Job job_local1277777919_0001 running in uber mode : false
+ map 100% reduce 0%
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+MergerManager: memoryLimit=1323407744, maxSingleShuffleLimit=330851936, mergeThreshold=873449152, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+attempt_local1277777919_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+Got 0 map completion events from 0
+GetMapEventsThread about to sleep for 1000
+LocalFetcher 1 going to fetch: attempt_local1277777919_0001_m_000000_0
+attempt_local1277777919_0001_m_000000_0: Proceeding with shuffle since usedMemory (0) is lesser than memoryLimit (1323407744).CommitMemory is (0)
+localfetcher#1 about to shuffle output of map attempt_local1277777919_0001_m_000000_0 decomp: 44 len: 48 to MEMORY
+Read 44 bytes from map-output for attempt_local1277777919_0001_m_000000_0
+closeInMemoryFile -> map-output of size: 44, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->44
+map attempt_local1277777919_0001_m_000000_0 done 1 / 1 copied.
+EventFetcher is interrupted.. Returning
+1 / 1 copied.
+finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+Merging 1 sorted segments
+Down to the last merge-pass, with 1 segments left of total size: 37 bytes
+Merged 1 segments, 44 bytes to disk to satisfy reduce memory limit
+Disk file: /tmp/hadoop-hadoop/mapred/local/localRunner/hadoop/jobcache/job_local1277777919_0001/attempt_local1277777919_0001_r_000000_0/output/map_0.out.merged Length is 48
+Merging 1 files, 48 bytes from disk
+Merging 0 segments, 0 bytes from memory into reduce
+Merging 1 sorted segments
+Down to the last merge-pass, with 1 segments left of total size: 37 bytes
+1 / 1 copied.
+/output/_temporary/0/_temporary/attempt_local1277777919_0001_r_000000_0/part-r-00000: masked=rw-r--r--
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #7
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #7
+Call: create took 2ms
+computePacketChunkSize: src=/output/_temporary/0/_temporary/attempt_local1277777919_0001_r_000000_0/part-r-00000, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1210078062_1] with renew id 1 started
+mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+DFSClient writeChunk allocating new packet seqno=0, src=/output/_temporary/0/_temporary/attempt_local1277777919_0001_r_000000_0/part-r-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #8
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #8
+Call: addBlock took 3ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741894_1070 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 26
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3967689
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741894_1070 sending packet packet seqno:1 offsetInBlock:26 lastPacketInBlock:true lastByteOffsetInBlock: 26
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3277906
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741894_1070
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #9
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #9
+Call: complete took 2ms
+Task:attempt_local1277777919_0001_r_000000_0 is done. And is in the process of committing
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #10
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #10
+Call: getFileInfo took 0ms
+1 / 1 copied.
+Task attempt_local1277777919_0001_r_000000_0 is allowed to commit now
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #11
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #11
+Call: getFileInfo took 0ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #12
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #12
+Call: getFileInfo took 0ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #13
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #13
+Call: rename took 5ms
+Saved output of task 'attempt_local1277777919_0001_r_000000_0' to hdfs://Master.Hadoop:9000/output/_temporary/0/task_local1277777919_0001_r_000000
+reduce > reduce
+Task 'attempt_local1277777919_0001_r_000000_0' done.
+Finishing task: attempt_local1277777919_0001_r_000000_0
+reduce task executor complete.
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #14
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #14
+Call: getListing took 3ms
+Merging data from FileStatus{path=hdfs://Master.Hadoop:9000/output/_temporary/0/task_local1277777919_0001_r_000000; isDirectory=true; modification_time=1421724819390; access_time=0; owner=hadoop; group=supergroup; permission=rwxr-xr-x; isSymlink=false} to hdfs://Master.Hadoop:9000/output
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #15
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #15
+Call: getFileInfo took 0ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #16
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #16
+Call: getFileInfo took 0ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #17
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #17
+Call: getListing took 2ms
+Merging data from FileStatus{path=hdfs://Master.Hadoop:9000/output/_temporary/0/task_local1277777919_0001_r_000000/part-r-00000; isDirectory=false; length=26; replication=3; blocksize=134217728; modification_time=1421724819848; access_time=1421724819390; owner=hadoop; group=supergroup; permission=rw-r--r--; isSymlink=false} to hdfs://Master.Hadoop:9000/output/part-r-00000
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #18
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #18
+Call: getFileInfo took 0ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #19
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #19
+Call: rename took 3ms
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #20
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #20
+Call: delete took 2ms
+/output/_SUCCESS: masked=rw-r--r--
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #21
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #21
+Call: create took 2ms
+computePacketChunkSize: src=/output/_SUCCESS, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Waiting for ack for: -1
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop sending #22
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop got value #22
+Call: complete took 3ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
+ map 100% reduce 100%
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+Job job_local1277777919_0001 completed successfully
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getCounters(Job.java:753)
+Counters: 38
+	File System Counters
+		FILE: Number of bytes read=518
+		FILE: Number of bytes written=465694
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=36
+		HDFS: Number of bytes written=26
+		HDFS: Number of read operations=13
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=4
+		Map output bytes=34
+		Map output materialized bytes=48
+		Input split bytes=106
+		Combine input records=4
+		Combine output records=4
+		Reduce input groups=4
+		Reduce shuffle bytes=48
+		Reduce input records=4
+		Reduce output records=4
+		Spilled Records=8
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=62
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=358612992
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=18
+	File Output Format Counters 
+		Bytes Written=26
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+stopping client from cache: org.apache.hadoop.ipc.Client@38364841
+removing client from cache: org.apache.hadoop.ipc.Client@38364841
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@38364841
 Stopping client
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator: closed
-IPC Client (949057310) connection to Master.Hadoop/192.168.216.130:9000 from Administrator: stopped, remaining connections 0
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1131645570) connection to Master.Hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+Supplied authorities: 192.168.216.130:10002
+Resolved authority: 192.168.216.130:10002
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Could not open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+Supplied authorities: 192.168.216.130:10002
+Resolved authority: 192.168.216.130:10002
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Could not open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+Supplied authorities: 192.168.216.130:9047
+Resolved authority: 192.168.216.130:9047
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:9047/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Could not open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:9047/default
+Supplied authorities: 192.168.216.130:10002
+Resolved authority: 192.168.216.130:10002
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Could not open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10002/default
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 131
+writing data length: 112
+CLIENT: reading data length: 102
+Fetched row string: 
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 118
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 273
+writing data length: 112
+CLIENT: reading data length: 177
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 138
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 150
+writing data length: 112
+CLIENT: reading data length: 145
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 117
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 130
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 102
+writing data length: 112
+CLIENT: reading data length: 104
+Fetched row string: 
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 131
+writing data length: 112
+CLIENT: reading data length: 102
+Fetched row string: 
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 118
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 273
+writing data length: 112
+CLIENT: reading data length: 177
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 138
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 150
+writing data length: 112
+CLIENT: reading data length: 145
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 117
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 130
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 102
+writing data length: 112
+CLIENT: reading data length: 104
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 96
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@357246de
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 131
+writing data length: 112
+CLIENT: reading data length: 102
+Fetched row string: 
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 118
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 273
+writing data length: 112
+CLIENT: reading data length: 177
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 138
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 123
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 150
+writing data length: 112
+CLIENT: reading data length: 145
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 117
+writing data length: 96
+CLIENT: reading data length: 42
+writing data length: 130
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 102
+writing data length: 112
+CLIENT: reading data length: 104
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 96
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@256216b3
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 382
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@256216b3
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 382
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 184
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@256216b3
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 382
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 184
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 215
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 392
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@256216b3
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 382
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 184
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 215
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 392
+Supplied authorities: 192.168.216.130:10000
+Resolved authority: 192.168.216.130:10000
+Will try to open client transport with JDBC Uri: jdbc:hive2://192.168.216.130:10000/default
+opening transport org.apache.thrift.transport.TSaslClientTransport@256216b3
+Sending mechanism name PLAIN and initial response of length 17
+CLIENT: Writing message with status START and payload length 5
+CLIENT: Writing message with status COMPLETE and payload length 17
+CLIENT: Start message handled
+CLIENT: Main negotiation loop complete
+CLIENT: SASL Client receiving last message
+CLIENT: Received message with status COMPLETE and payload length 0
+writing data length: 71
+CLIENT: reading data length: 109
+writing data length: 382
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 184
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 215
+CLIENT: reading data length: 109
+writing data length: 100
+CLIENT: reading data length: 53
+writing data length: 102
+CLIENT: reading data length: 392
+writing data length: 112
+CLIENT: reading data length: 5674
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+Fetched row string: 
+writing data length: 112
+CLIENT: reading data length: 222
+writing data length: 83
+CLIENT: reading data length: 40

@@ -169,5 +169,7 @@
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/common/lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/common/hadoop-nfs-2.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/hadoop-2.5.0/share/hadoop/common/hadoop-common-2.5.0.jar" sourcepath="C:/hadoop-2.5.0/share/hadoop/common/sources/hadoop-common-2.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Documents/hive-jdbc-0.14.0-standalone.jar"/>
+	<classpathentry kind="lib" path="D:/Documents/mysql-connector-java-5.1.18-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
