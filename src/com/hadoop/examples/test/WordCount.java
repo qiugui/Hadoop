@@ -56,10 +56,10 @@ public class WordCount {
 	    //conf.set("mapreduce.jobhistory.address", "192.168.216.130:10020");
 	    //conf.set("mapred.remote.os", "Linux");
 	    //conf.set("hadoop.job.ugi", "hadoop,hadoop");
-		conf.set("fs.defaultFS", "hdfs://192.168.216.130:9000");
-		conf.set("yarn.resourcemanager.address", "192.168.216.130:8032");
+		conf.set("fs.defaultFS", "hdfs://192.168.23.130:9000");
+		conf.set("yarn.resourcemanager.address", "192.168.23.130:8032");
 		conf.set("mapreduce.framework.name", "yarn");
-		conf.set("yarn.application.classpath", "$HADOOP_CONF_DIR,$HADOOP_COMMON_HOME/*,$HADOOP_COMMON_HOME/lib/*,$HADOOP_HDFS_HOME/*,$HADOOP_HDFS_HOME/lib/*,$HADOOP_MAPRED_HOME/*,$HADOOP_MAPRED_HOME/lib/*,$HADOOP_YARN_HOME/*,$HADOOP_YARN_HOME/lib/*");
+		conf.set("mapred.jar", "C:\\Users\\hadoop\\workspace\\.metadata\\.plugins\\org.apache.hadoop.eclipse\\WordCount.jar");
 
 		Job job = Job.getInstance(conf, "my word count");
 		job.setJarByClass(WordCount.class);
