@@ -351,6 +351,12 @@ public class MyApp extends Configured implements Tool{
 		// Configuration processed by ToolRunner
         Configuration conf = getConf();
         
+        conf.set("mapred.remote.os", "Linux");
+		conf.set("fs.defaultFS", "hdfs://192.168.216.130:9000");
+		conf.set("yarn.resourcemanager.address", "192.168.216.130:8032");
+		conf.set("mapreduce.framework.name", "yarn");
+		conf.set("mapred.jar", "D:\\Documents\\workspace-sts-3.6.1.RELEASE\\Hadoop\\WordCount.jar");
+        
         Job job = Job.getInstance(conf, "MyApp");
         //或者用下面的两行代码
         //Job job = Job.getInstance(conf);
