@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HColumnDescriptor;
 import org.apache.hadoop.hbase.HTableDescriptor;
@@ -20,11 +21,12 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
  public class WordCountHBase {
 
 	 //实现Map类
-	 public static class MapClass extends Mapper<Text, IntWritable, Text, IntWritable>{
+	 public static class MapClass extends Mapper<LongWritable, Text, Text, IntWritable>{
 		 private final static IntWritable one = new IntWritable(1);
 		 private Text record = new Text();
 		 
@@ -58,7 +60,8 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 	 }
 	 
 	 //创建HBase数据表
-	 public static void createHBaseTable(String tableName) 
+	 @SuppressWarnings({ "deprecation", "resource" })
+	public static void createHBaseTable(String tableName) 
 			 throws MasterNotRunningException, ZooKeeperConnectionException, IOException{
 		 //创建表描述
 		 HTableDescriptor tableDesc = new HTableDescriptor(tableName);
@@ -86,7 +89,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 	 }
 	 
 	 public static void main(String[] args) 
-			 throws MasterNotRunningException, ZooKeeperConnectionException, IOException{
+			 throws MasterNotRunningException, ZooKeeperConnectionException, IOException, ClassNotFoundException, InterruptedException{
 		 String tableName = "wordcount";
 		 
 		 //第一步：创建数据表
@@ -99,7 +102,8 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 		 conf.set("fs.defaultFS", "hdfs://192.168.216.130:9000");
 		 conf.set("yarn.resourcemanager.address", "192.168.216.130:8032");
 		 conf.set("mapreduce.framework.name", "yarn");
-		 conf.set("mapred.jar", "D:\\Documents\\workspace-sts-3.6.1.RELEASE\\Hadoop\\WordCount.jar");
+		 conf.set("mapred.jar", "D:\\Documents\\workspace-sts-3.6.1.RELEASE\\Hadoop\\WordCountHBase.jar");
+		 //conf.set("mapred.jar", "D:\\Documents\\workspace-sts-3.6.1.RELEASE\\Hadoop\\WordCount.jar");
 		 conf.set("hbase.master", "192.168.216.130:60000");
 		 conf.set("hbase.zookeeper.quorum", "192.168.216.132,192.168.216.133,192.168.216.134");
 		 conf.set("hbase.zookeeper.property.clientPort", "2181");
@@ -111,11 +115,18 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 		 job.setMapperClass(MapClass.class);
 		 job.setReducerClass(ReduceClass.class);
 		 
+		 //设置输出类型
+		 job.setMapOutputKeyClass(Text.class);
+		 job.setMapOutputValueClass(IntWritable.class);
+		 
 		 //设置输入输出格式
 		 job.setInputFormatClass(TextInputFormat.class);
 		 job.setOutputFormatClass(TableOutputFormat.class);
 		 
 		 //设置输入目录
+		 FileInputFormat.addInputPath(job, new Path("/input"));
+		 
+		 System.exit(job.waitForCompletion(true) ? 0 : 1);
 	 }
 }
 
