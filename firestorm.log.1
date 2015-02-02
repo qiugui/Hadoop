@@ -1,280 +1,76 @@
-Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_11/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_11/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_11/bin/../jre/lib/amd64;.;C:\Program Files\Java\jdk1.8.0_11\bin;C:\Program Files\Java\jdk1.8.0_11\jre\bin;D:\app\qg\product\11.2.0\dbhome_1\bin;D:\app\Administrator\product\11.1.0\client_1\bin;D:\app\Administrator\product\11.2.0\client_1\bin;C:\sybase\DataAccess64\ADONET\dll;C:\sybase\DataAccess\ADONET\dll;C:\sybase\DataAccess\OLEDB\dll;C:\sybase\DataAccess64\OLEDB\dll;C:\sybase\DataAccess\ODBC\dll;C:\sybase\DataAccess64\ODBC\dll;C:\sybase\OCS-15_0\lib3p64;C:\sybase\OCS-15_0\lib3p;C:\sybase\OCS-15_0\dll;C:\sybase\OCS-15_0\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\MySql\mysql-5.6.21-winx64\bin;C:\hadoop-2.5.0\bin;D:\sts-bundle\sts-3.6.1.RELEASE;;.
-Client environment:java.io.tmpdir=C:\Users\hadoop\AppData\Local\Temp\
-Client environment:java.compiler=<NA>
-Client environment:os.name=Windows 7
-Client environment:os.arch=amd64
-Client environment:os.version=6.1
-Client environment:user.name=hadoop
-Client environment:user.home=C:\Users\hadoop
-Client environment:user.dir=D:\Documents\workspace-sts-3.6.1.RELEASE\Hadoop
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-zookeeper.disableAutoWatchReset is false
-Opening socket connection to server 192.168.216.134/192.168.216.134:2181. Will not attempt to authenticate using SASL (unknown error)
-Socket connection established to 192.168.216.134/192.168.216.134:2181, initiating session
-Session establishment request sent on 192.168.216.134/192.168.216.134:2181
-Session establishment complete on server 192.168.216.134/192.168.216.134:2181, sessionid = 0x24b2f2554f3001c, negotiated timeout = 90000
-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-hconnection-0x4148db48-0x24b2f2554f3001c connected
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705982,0  request:: '/hbase/hbaseid,F  response:: s{4294967311,38654705669,1421390298023,1422425158666,8,0,0,0,67,0,4294967311} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705982,0  request:: '/hbase/hbaseid,F  response:: #ffffffff000146d61737465723a3630303030fffffffbffffffd83629ffffffd4ffffffa52fffffff9950425546a2437636336346339382d653366362d343534332d383935342d633136356464656335343434,s{4294967311,38654705669,1421390298023,1422425158666,8,0,0,0,67,0,4294967311} 
-Codec=org.apache.hadoop.hbase.codec.KeyValueCodec@3835c46, compressor=null, tcpKeepAlive=true, tcpNoDelay=true, maxIdleTime=10000, maxRetries=0, fallbackAllowed=false, ping interval=60000ms, bind address=null
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Opening socket connection to server 192.168.216.132/192.168.216.132:2181. Will not attempt to authenticate using SASL (unknown error)
-Socket connection established to 192.168.216.132/192.168.216.132:2181, initiating session
-Session establishment request sent on 192.168.216.132/192.168.216.132:2181
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@1a451d4d
-Session establishment complete on server 192.168.216.132/192.168.216.132:2181, sessionid = 0x4b2f2566590022, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-catalogtracker-on-hconnection-0x4148db48-0x4b2f2566590022 connected
-Reading reply sessionid:0x4b2f2566590022, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705983,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x4b2f2566590022, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x4b2f2566590022, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705983,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 3,4  replyHeader:: 3,38654705983,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Use SIMPLE authentication for service ClientService, sasl=false
-Connecting to Slaver2.Hadoop/192.168.216.133:60020
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: starting, connections 1
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 0 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 0, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 1 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 1 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 2 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 2, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@1a451d4d
-Closing session: 0x4b2f2566590022
-Closing client for session: 0x4b2f2566590022
-Reading reply sessionid:0x4b2f2566590022, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654705984,0  request:: null response:: null
-Disconnecting client for session: 0x4b2f2566590022
-Session: 0x4b2f2566590022 closed
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 63 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 63, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 64 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 64 cell_block_meta { length: 921 }, totalSize: 942 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 65 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 65, totalSize: 8 bytes
+Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@7d0b7e3c
+Closing session: 0x24b39b131710004
+Closing client for session: 0x24b39b131710004
+Reading reply sessionid:0x24b39b131710004, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,51539607644,0  request:: null response:: null
+Disconnecting client for session: 0x24b39b131710004
+Session: 0x24b39b131710004 closed
 EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 4,3  replyHeader:: 4,38654705984,0  request:: '/hbase,F  response:: s{4294967299,4294967299,1421390290937,1421390290937,0,63,0,0,0,15,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 5,4  replyHeader:: 5,38654705984,0  request:: '/hbase/master,F  response:: #ffffffff000146d61737465723a36303030304effffffaf22ffffffee3fffffff7ffffffb1ffffffb250425546a1aad4d61737465722e4861646f6f7010ffffffe0ffffffd4318fffffff5ffffff9bffffff95fffffff9ffffffb229100,s{38654705667,38654705667,1422425155864,1422425155864,0,0,0,93220054670704640,59,0,38654705667} 
-Use SIMPLE authentication for service MasterService, sasl=false
-Connecting to Master.Hadoop/192.168.216.130:60000
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: starting, connections 2
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 3 method_name: "IsMasterRunning" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 3, totalSize: 6 bytes
-Started disable of wordcount
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 4 method_name: "DisableTable" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 4, totalSize: 4 bytes
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@4b8ee4de
-Opening socket connection to server 192.168.216.132/192.168.216.132:2181. Will not attempt to authenticate using SASL (unknown error)
-Socket connection established to 192.168.216.132/192.168.216.132:2181, initiating session
-Session establishment request sent on 192.168.216.132/192.168.216.132:2181
-Session establishment complete on server 192.168.216.132/192.168.216.132:2181, sessionid = 0x4b2f2566590023, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-catalogtracker-on-hconnection-0x4148db48-0x4b2f2566590023 connected
-Reading reply sessionid:0x4b2f2566590023, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705988,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x4b2f2566590023, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x4b2f2566590023, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705988,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 6,4  replyHeader:: 6,38654705989,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 5 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 5, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 6 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 6 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 7 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 7, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@4b8ee4de
-Closing session: 0x4b2f2566590023
-Closing client for session: 0x4b2f2566590023
-Reading reply sessionid:0x4b2f2566590023, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654705990,0  request:: null response:: null
-An exception was thrown while closing send thread for session 0x4b2f2566590023 : Unable to read additional data from server sessionid 0x4b2f2566590023, likely server has closed socket
-Disconnecting client for session: 0x4b2f2566590023
-Session: 0x4b2f2566590023 closed
-EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 7,4  replyHeader:: 7,38654705991,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030ffffffe31b91057161f4f5042554682,s{38654705955,38654705987,1422428197592,1422428915613,4,0,0,0,31,0,38654705955} 
-Sleeping= 100ms, waiting for all regions to be disabled in wordcount
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@48aca48b
-Opening socket connection to server 192.168.216.134/192.168.216.134:2181. Will not attempt to authenticate using SASL (unknown error)
-Socket connection established to 192.168.216.134/192.168.216.134:2181, initiating session
-Session establishment request sent on 192.168.216.134/192.168.216.134:2181
-Session establishment complete on server 192.168.216.134/192.168.216.134:2181, sessionid = 0x24b2f2554f3001d, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-catalogtracker-on-hconnection-0x4148db48-0x24b2f2554f3001d connected
-Reading reply sessionid:0x24b2f2554f3001d, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705993,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x24b2f2554f3001d, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x24b2f2554f3001d, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705993,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 8,4  replyHeader:: 8,38654705993,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 8 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 8, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 9 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 9 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 10 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 10, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@48aca48b
-Closing session: 0x24b2f2554f3001d
-Closing client for session: 0x24b2f2554f3001d
-Reading reply sessionid:0x24b2f2554f3001d, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654705994,0  request:: null response:: null
-Disconnecting client for session: 0x24b2f2554f3001d
-Session: 0x24b2f2554f3001d closed
-EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 9,4  replyHeader:: 9,38654705994,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030ffffffe31b91057161f4f5042554682,s{38654705955,38654705987,1422428197592,1422428915613,4,0,0,0,31,0,38654705955} 
-Sleeping= 200ms, waiting for all regions to be disabled in wordcount
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@b9b00e0
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 66 method_name: "IsMasterRunning" request_param: true
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 66, totalSize: 6 bytes
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 67 method_name: "CreateTable" request_param: true
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 67, totalSize: 4 bytes
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 25,4  replyHeader:: 25,51539607649,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 68 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 68, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 69 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 69 cell_block_meta { length: 921 }, totalSize: 942 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 70 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 70, totalSize: 8 bytes
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 26,4  replyHeader:: 26,51539607649,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 71 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 71, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 72 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 72 cell_block_meta { length: 921 }, totalSize: 942 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 73 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 73, totalSize: 8 bytes
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 27,4  replyHeader:: 27,51539607650,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 74 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 74, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 75 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 75 cell_block_meta { length: 1064 }, totalSize: 1087 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 76 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 76, totalSize: 8 bytes
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 28,4  replyHeader:: 28,51539607655,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 77 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 77, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 78 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 78 cell_block_meta { length: 1404 }, totalSize: 1427 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 79 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 79, totalSize: 8 bytes
+Process identifier=catalogtracker-on-hconnection-0x120d6fe6 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
+Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x120d6fe6, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
+Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@2eae8e6e
 Opening socket connection to server 192.168.216.133/192.168.216.133:2181. Will not attempt to authenticate using SASL (unknown error)
 Socket connection established to 192.168.216.133/192.168.216.133:2181, initiating session
 Session establishment request sent on 192.168.216.133/192.168.216.133:2181
-Session establishment complete on server 192.168.216.133/192.168.216.133:2181, sessionid = 0x14b2f255497001f, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-catalogtracker-on-hconnection-0x4148db48-0x14b2f255497001f connected
-Reading reply sessionid:0x14b2f255497001f, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705995,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x14b2f255497001f, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x14b2f255497001f, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705995,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 10,4  replyHeader:: 10,38654705995,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 11 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 11, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 12 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 12 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 13 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 13, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@b9b00e0
-Closing session: 0x14b2f255497001f
-Closing client for session: 0x14b2f255497001f
-Reading reply sessionid:0x14b2f255497001f, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654705996,0  request:: null response:: null
-Disconnecting client for session: 0x14b2f255497001f
-Session: 0x14b2f255497001f closed
+Session establishment complete on server 192.168.216.133/192.168.216.133:2181, sessionid = 0x24b39b131710005, negotiated timeout = 90000
+catalogtracker-on-hconnection-0x120d6fe6, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
+Reading reply sessionid:0x24b39b131710005, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,51539607656,0  request:: '/hbase/meta-region-server,T  response:: s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+catalogtracker-on-hconnection-0x120d6fe6, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
+catalogtracker-on-hconnection-0x120d6fe6-0x24b39b131710005 connected
+Reading reply sessionid:0x24b39b131710005, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,51539607656,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 29,4  replyHeader:: 29,51539607656,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 80 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 80, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 81 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 81 cell_block_meta { length: 1404 }, totalSize: 1427 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 82 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 82, totalSize: 8 bytes
+Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@2eae8e6e
+Closing session: 0x24b39b131710005
+Closing client for session: 0x24b39b131710005
+Reading reply sessionid:0x24b39b131710005, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,51539607657,0  request:: null response:: null
+Disconnecting client for session: 0x24b39b131710005
+Session: 0x24b39b131710005 closed
 EventThread shut down
-An exception was thrown while closing send thread for session 0x14b2f255497001f : Unable to read additional data from server sessionid 0x14b2f255497001f, likely server has closed socket
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 11,4  replyHeader:: 11,38654705996,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030ffffffe31b91057161f4f5042554682,s{38654705955,38654705987,1422428197592,1422428915613,4,0,0,0,31,0,38654705955} 
-Sleeping= 300ms, waiting for all regions to be disabled in wordcount
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Opening socket connection to server 192.168.216.133/192.168.216.133:2181. Will not attempt to authenticate using SASL (unknown error)
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@7d4f9aae
-Socket connection established to 192.168.216.133/192.168.216.133:2181, initiating session
-Session establishment request sent on 192.168.216.133/192.168.216.133:2181
-Session establishment complete on server 192.168.216.133/192.168.216.133:2181, sessionid = 0x14b2f2554970020, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-catalogtracker-on-hconnection-0x4148db48-0x14b2f2554970020 connected
-Reading reply sessionid:0x14b2f2554970020, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654705997,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x14b2f2554970020, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x14b2f2554970020, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654705997,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 12,4  replyHeader:: 12,38654705997,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 14 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 14, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 15 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 15 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 16 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 16, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@7d4f9aae
-Closing session: 0x14b2f2554970020
-Closing client for session: 0x14b2f2554970020
-Reading reply sessionid:0x14b2f2554970020, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654705998,0  request:: null response:: null
-Disconnecting client for session: 0x14b2f2554970020
-Session: 0x14b2f2554970020 closed
-EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 13,4  replyHeader:: 13,38654705998,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030ffffffe31b91057161f4f5042554682,s{38654705955,38654705987,1422428197592,1422428915613,4,0,0,0,31,0,38654705955} 
-Sleeping= 500ms, waiting for all regions to be disabled in wordcount
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@2d52216b
-Opening socket connection to server 192.168.216.133/192.168.216.133:2181. Will not attempt to authenticate using SASL (unknown error)
-Socket connection established to 192.168.216.133/192.168.216.133:2181, initiating session
-Session establishment request sent on 192.168.216.133/192.168.216.133:2181
-Session establishment complete on server 192.168.216.133/192.168.216.133:2181, sessionid = 0x14b2f2554970021, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-Reading reply sessionid:0x14b2f2554970021, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654706001,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-catalogtracker-on-hconnection-0x4148db48-0x14b2f2554970021 connected
-Reading reply sessionid:0x14b2f2554970021, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654706001,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 14,4  replyHeader:: 14,38654706001,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 17 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 17, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 18 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 18 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 19 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 19, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@2d52216b
-Closing session: 0x14b2f2554970021
-Closing client for session: 0x14b2f2554970021
-Reading reply sessionid:0x14b2f2554970021, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654706002,0  request:: null response:: null
-Disconnecting client for session: 0x14b2f2554970021
-Session: 0x14b2f2554970021 closed
-EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 15,4  replyHeader:: 15,38654706002,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030fffffff62148ffffff94affffffb313ffffffa95042554681,s{38654705955,38654705999,1422428197592,1422428916623,5,0,0,0,31,0,38654705955} 
-Disabled wordcount
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 20 method_name: "IsMasterRunning" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 20, totalSize: 6 bytes
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 21 method_name: "DeleteTable" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 21, totalSize: 4 bytes
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 16,4  replyHeader:: 16,38654706003,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 22 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 22 cell_block_meta { length: 137 }, totalSize: 152 bytes
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 17,4  replyHeader:: 17,38654706006,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 23 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 23, totalSize: 8 bytes
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 24 method_name: "IsMasterRunning" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 24, totalSize: 6 bytes
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 25 method_name: "GetTableDescriptors" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 25, totalSize: 4 bytes
-Deleted wordcount
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 26 method_name: "IsMasterRunning" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 26, totalSize: 6 bytes
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 27 method_name: "CreateTable" request_param: true
-IPC Client (1209702763) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 27, totalSize: 4 bytes
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 18,4  replyHeader:: 18,38654706011,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 28 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 28, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 29 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 29, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 30 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 30, totalSize: 8 bytes
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 19,4  replyHeader:: 19,38654706012,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 31 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 31, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 32 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 32 cell_block_meta { length: 137 }, totalSize: 156 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 33 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 33, totalSize: 8 bytes
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 20,4  replyHeader:: 20,38654706017,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 34 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 34, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 35 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 35 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 36 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 36, totalSize: 8 bytes
-Process identifier=catalogtracker-on-hconnection-0x4148db48 connecting to ZooKeeper ensemble=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181
-Initiating client connection, connectString=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181 sessionTimeout=90000 watcher=catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase
-Opening socket connection to server 192.168.216.134/192.168.216.134:2181. Will not attempt to authenticate using SASL (unknown error)
-Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@740cae06
-Socket connection established to 192.168.216.134/192.168.216.134:2181, initiating session
-Session establishment request sent on 192.168.216.134/192.168.216.134:2181
-Session establishment complete on server 192.168.216.134/192.168.216.134:2181, sessionid = 0x24b2f2554f3001e, negotiated timeout = 90000
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Received ZooKeeper Event, type=None, state=SyncConnected, path=null
-Reading reply sessionid:0x24b2f2554f3001e, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,38654706018,0  request:: '/hbase/meta-region-server,T  response:: s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-catalogtracker-on-hconnection-0x4148db48-0x24b2f2554f3001e connected
-catalogtracker-on-hconnection-0x4148db48, quorum=192.168.216.133:2181,192.168.216.132:2181,192.168.216.134:2181, baseZNode=/hbase Set watcher on existing znode=/hbase/meta-region-server
-Reading reply sessionid:0x24b2f2554f3001e, packet:: clientPath:null serverPath:null finished:false header:: 2,4  replyHeader:: 2,38654706018,0  request:: '/hbase/meta-region-server,T  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 21,4  replyHeader:: 21,38654706018,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a3630303230ffffffea28ffffffde657fffffff8e35ffffffc250425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318fffffff7ffffffdaffffff95fffffff9ffffffb229100183,s{38654705698,38654705698,1422425168084,1422425168084,0,0,0,0,68,0,38654705698} 
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 37 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 37, totalSize: 12 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 38 cell_block_meta { length: 468 }, totalSize: 487 bytes
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 38 method_name: "Scan" request_param: true priority: 100
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 39 method_name: "Scan" request_param: true
-IPC Client (1209702763) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 39, totalSize: 8 bytes
-Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@740cae06
-Closing session: 0x24b2f2554f3001e
-Closing client for session: 0x24b2f2554f3001e
-Reading reply sessionid:0x24b2f2554f3001e, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,38654706019,0  request:: null response:: null
-Disconnecting client for session: 0x24b2f2554f3001e
-Session: 0x24b2f2554f3001e closed
-EventThread shut down
-Reading reply sessionid:0x24b2f2554f3001c, packet:: clientPath:null serverPath:null finished:false header:: 22,4  replyHeader:: 22,38654706019,0  request:: '/hbase/table/wordcount,F  response:: #ffffffff000146d61737465723a3630303030ffffff9e64ffffffb2ffffffe1affffff92ffffffe3ffffffad5042554680,s{38654706010,38654706014,1422428917232,1422428917359,2,0,0,0,31,0,38654706010} 
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 30,4  replyHeader:: 30,51539607657,0  request:: '/hbase/table/heroes-power,F  response:: #ffffffff000146d61737465723a3630303030ffffffe07dffffffdaffffffc305cffffffb32f5042554680,s{51539607648,51539607651,1422607891746,1422607892088,2,0,0,0,31,0,51539607648} 
 mapred.jar is deprecated. Instead, use mapreduce.job.jar
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@97e93f1
-getting client out of cache: org.apache.hadoop.ipc.Client@1be2019a
-Both short-circuit local reads and UNIX domain socket are disabled.
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.connect(Job.java:1250)
 Trying ClientProtocolProvider : org.apache.hadoop.mapred.YarnClientProtocolProvider
 Service: org.apache.hadoop.mapred.ResourceMgrDelegate entered state INITED
@@ -283,7 +79,8 @@ Connecting to ResourceManager at /192.168.216.130:8032
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.yarn.client.RMProxy.getProxy(RMProxy.java:130)
 Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
 Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.yarn.api.ApplicationClientProtocol
-getting client out of cache: org.apache.hadoop.ipc.Client@1be2019a
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@624ea235
+getting client out of cache: org.apache.hadoop.ipc.Client@69504ae9
 Service org.apache.hadoop.yarn.client.api.impl.YarnClientImpl is started
 Service org.apache.hadoop.mapred.ResourceMgrDelegate is started
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
@@ -292,164 +89,183 @@ dfs.client.read.shortcircuit = false
 dfs.client.domain.socket.data.traffic = false
 dfs.domain.socket.path = 
 multipleLinearRandomRetry = null
-getting client out of cache: org.apache.hadoop.ipc.Client@1be2019a
+getting client out of cache: org.apache.hadoop.ipc.Client@69504ae9
+Both short-circuit local reads and UNIX domain socket are disabled.
 Picked org.apache.hadoop.mapred.YarnClientProtocolProvider as the ClientProtocolProvider
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Cluster.getFileSystem(Cluster.java:161)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+getting client out of cache: org.apache.hadoop.ipc.Client@69504ae9
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
-Created table instance for wordcount
 getStagingAreaDir: dir=/tmp/hadoop-yarn/staging/hadoop/.staging
 The ping interval is 60000 ms.
 Connecting to /192.168.216.130:9000
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #0
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #0
-Call: getFileInfo took 26ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #1
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #1
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #0
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #0
+Call: getFileInfo took 55ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #1
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #1
 Call: getFileInfo took 1ms
 The ping interval is 60000 ms.
 Connecting to /192.168.216.130:8032
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop: starting, having connections 2
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop sending #2
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop got value #2
-Call: getNewApplication took 5ms
-Configuring job job_1422425126474_0006 with /tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006 as the submit dir
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop: starting, having connections 2
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #2
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #2
+Call: getNewApplication took 1646ms
+Configuring job job_1422589044103_0001 with /tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001 as the submit dir
 adding the following namenodes' delegation tokens:[hdfs://192.168.216.130:9000]
 Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
 default FileSystem: hdfs://192.168.216.130:9000
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #3
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #3
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #3
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #3
+Call: getFileInfo took 1ms
+/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001: masked=rwxr-xr-x
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #4
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #4
+Call: mkdirs took 1ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #5
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #5
+Call: setPermission took 266ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #6
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #6
 Call: getFileInfo took 2ms
-/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006: masked=rwxr-xr-x
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #4
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #4
-Call: mkdirs took 2ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #5
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #5
-Call: setPermission took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #6
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #6
-Call: getFileInfo took 1ms
-/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.jar: masked=rw-r--r--
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #7
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #7
+/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.jar: masked=rw-r--r--
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #7
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #7
 Call: create took 2ms
-computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_678914055_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #8
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #8
-Call: addBlock took 5ms
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.134:50010
-Send buf size 131072
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #9
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #9
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742452_1628 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 5013
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2148375
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742452_1628 sending packet packet seqno:1 offsetInBlock:5013 lastPacketInBlock:true lastByteOffsetInBlock: 5013
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 6432725
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #10
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #10
-Call: complete took 4ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #11
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #11
-Call: setReplication took 2ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #12
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #12
-Call: setPermission took 1ms
-Creating splits at hdfs://192.168.216.130:9000/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #13
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #13
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #14
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #14
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #15
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #15
-Call: getListing took 2ms
-Time taken to get FileStatuses: 18
-Total input paths to process : 2
-Total # of splits generated by getSplits: 2, TimeTaken: 28
-/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.split: masked=rw-r--r--
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #16
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #16
-Call: create took 3ms
-computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.split, chunkSize=516, chunksPerPacket=127, packetSize=65532
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #17
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #17
-Call: setPermission took 2ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #18
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #18
-Call: setReplication took 1ms
-DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.split, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1350525729_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
 Queued packet 0
 Queued packet 1
 Waiting for ack for: 1
 Allocating new block
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #19
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #19
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #8
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #8
 Call: addBlock took 3ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #9
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #9
+Call: getServerDefaults took 2ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742542_1718 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 5864
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2997095
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742542_1718 sending packet packet seqno:1 offsetInBlock:5864 lastPacketInBlock:true lastByteOffsetInBlock: 5864
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 5031357
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742542_1718
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #10
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #10
+Call: complete took 2ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #11
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #11
+Call: setReplication took 108ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #12
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #12
+Call: setPermission took 2ms
+Creating splits at hdfs://192.168.216.130:9000/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001
+Calculating region sizes for table "heroes".
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 31,4  replyHeader:: 31,51539607657,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 83 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 83, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 84 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 84 cell_block_meta { length: 2335 }, totalSize: 2362 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 85 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 85, totalSize: 8 bytes
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 86 method_name: "IsMasterRunning" request_param: true
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 86, totalSize: 6 bytes
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: wrote request header call_id: 87 method_name: "GetClusterStatus" request_param: true
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: got response header call_id: 87, totalSize: 999 bytes
+Region heroes,,1422607887605.f42b837c6a8f5a853a633dd0c7b7d422. has size 0
+Region sizes calculated
+Reading reply sessionid:0x14b39b131720003, packet:: clientPath:null serverPath:null finished:false header:: 32,4  replyHeader:: 32,51539607657,0  request:: '/hbase/meta-region-server,F  response:: #ffffffff0001a726567696f6e7365727665723a36303032302f2ffffffa7461397ffffffc950425546a1bae536c61766572322e4861646f6f7010fffffff4ffffffd4318ffffffd9ffffff99ffffffc5ffffffcdffffffb329100183,s{51539607586,51539607586,1422602109107,1422602109107,0,0,0,0,68,0,51539607586} 
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 88 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 88, totalSize: 12 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 89 method_name: "Scan" request_param: true priority: 100
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 89 cell_block_meta { length: 2335 }, totalSize: 2362 bytes
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: wrote request header call_id: 90 method_name: "Scan" request_param: true
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: got response header call_id: 90, totalSize: 8 bytes
+getSplits: split -> 0 -> HBase table split(table name: heroes, scan: , start row: , end row: , region location: Slaver3.Hadoop)
+/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.split: masked=rw-r--r--
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #13
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #13
+Call: create took 3ms
+computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.split, chunkSize=516, chunksPerPacket=127, packetSize=65532
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #14
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #14
+Call: setPermission took 2ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #15
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #15
+Call: setReplication took 2ms
+DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.split, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #16
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #16
+Call: addBlock took 2ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742543_1719 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 79
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1837760
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742543_1719 sending packet packet seqno:1 offsetInBlock:79 lastPacketInBlock:true lastByteOffsetInBlock: 79
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 7542585
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742543_1719
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #17
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #17
+Call: complete took 3ms
+/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.splitmetainfo: masked=rw-r--r--
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #18
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #18
+Call: create took 2ms
+computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.splitmetainfo, chunkSize=516, chunksPerPacket=127, packetSize=65532
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #19
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #19
+Call: setPermission took 1ms
+DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.splitmetainfo, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #20
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #20
+Call: addBlock took 4ms
 pipeline = 192.168.216.134:50010
 pipeline = 192.168.216.132:50010
 pipeline = 192.168.216.133:50010
 Connecting to datanode 192.168.216.134:50010
 Send buf size 131072
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742453_1629 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 223
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2864830
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742453_1629 sending packet packet seqno:1 offsetInBlock:223 lastPacketInBlock:true lastByteOffsetInBlock: 223
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4368122
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #20
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #20
-Call: complete took 2ms
-/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.splitmetainfo: masked=rw-r--r--
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #21
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #21
-Call: create took 2ms
-computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.splitmetainfo, chunkSize=516, chunksPerPacket=127, packetSize=65532
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #22
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #22
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742544_1720 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 28
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 9999345
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742544_1720 sending packet packet seqno:1 offsetInBlock:28 lastPacketInBlock:true lastByteOffsetInBlock: 28
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2717286
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742544_1720
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #21
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #21
+Call: complete took 13ms
+number of splits:1
+/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml: masked=rw-r--r--
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #22
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #22
+Call: create took 4ms
+computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml, chunkSize=516, chunksPerPacket=127, packetSize=65532
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #23
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #23
 Call: setPermission took 4ms
-DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.splitmetainfo, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #23
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #23
-Call: addBlock took 4ms
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-Connecting to datanode 192.168.216.132:50010
-Send buf size 131072
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742454_1630 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 106
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1603897
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742454_1630 sending packet packet seqno:1 offsetInBlock:106 lastPacketInBlock:true lastByteOffsetInBlock: 106
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3607879
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742454_1630
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #24
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #24
-Call: complete took 2ms
-number of splits:2
-/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml: masked=rw-r--r--
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #25
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #25
-Call: create took 1ms
-computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml, chunkSize=516, chunksPerPacket=127, packetSize=65532
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #26
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #26
-Call: setPermission took 3ms
 Handling deprecation for all properties in config...
 Handling deprecation for mapreduce.jobtracker.address
 Handling deprecation for yarn.resourcemanager.scheduler.monitor.policies
+Handling deprecation for hbase.rs.cacheblocksonwrite
 Handling deprecation for ipc.server.tcpnodelay
 Handling deprecation for mapreduce.jobhistory.client.thread-count
 Handling deprecation for yarn.application.classpath
@@ -458,6 +274,7 @@ Handling deprecation for mapreduce.jobtracker.retiredjobs.cache.size
 Handling deprecation for dfs.client.https.need-auth
 Handling deprecation for yarn.admin.acl
 Handling deprecation for yarn.app.mapreduce.am.job.committer.cancel-timeout
+Handling deprecation for hbase.client.localityCheck.threadPoolSize
 Handling deprecation for fs.ftp.host.port
 Handling deprecation for dfs.namenode.avoid.read.stale.datanode
 Handling deprecation for dfs.journalnode.rpc-address
@@ -465,25 +282,33 @@ Handling deprecation for mapreduce.job.end-notification.retry.attempts
 Handling deprecation for yarn.timeline-service.leveldb-timeline-store.ttl-interval-ms
 Handling deprecation for mapred.mapper.new-api
 Handling deprecation for yarn.ipc.rpc.class
+Handling deprecation for hbase.master.hfilecleaner.plugins
 Handling deprecation for ipc.client.connection.maxidletime
+Handling deprecation for hbase.auth.token.max.lifetime
 Handling deprecation for yarn.nodemanager.process-kill-wait.ms
 Handling deprecation for mapreduce.cluster.acls.enabled
+Handling deprecation for hbase.regionserver.regionSplitLimit
 Handling deprecation for mapreduce.jobtracker.handler.count
+Handling deprecation for hbase.regionserver.dns.nameserver
 Handling deprecation for io.map.index.interval
 Handling deprecation for dfs.namenode.https-address
 Handling deprecation for yarn.nodemanager.aux-services
+Handling deprecation for hbase.client.scanner.timeout.period
 Handling deprecation for mapreduce.task.profile.reduces
 Handling deprecation for fs.s3n.multipart.uploads.enabled
 Handling deprecation for io.seqfile.sorter.recordlimit
 Handling deprecation for mapreduce.job.ubertask.maxmaps
 Handling deprecation for mapreduce.tasktracker.tasks.sleeptimebeforesigkill
 Handling deprecation for hadoop.util.hash.type
+Handling deprecation for hbase.master.logcleaner.plugins
 Handling deprecation for dfs.namenode.replication.min
 Handling deprecation for yarn.nodemanager.container-manager.thread-count
+Handling deprecation for hbase.rootdir
 Handling deprecation for mapreduce.jobtracker.jobhistory.block.size
 Handling deprecation for dfs.namenode.fs-limits.min-block-size
 Handling deprecation for mapreduce.app-submission.cross-platform
 Handling deprecation for fs.AbstractFileSystem.file.impl
+Handling deprecation for hbase.hregion.majorcompaction
 Handling deprecation for mapreduce.job.classloader.system.classes
 Handling deprecation for net.topology.script.number.args
 Handling deprecation for yarn.resourcemanager.container-tokens.master-key-rolling-interval-secs
@@ -491,13 +316,17 @@ Handling deprecation for mapreduce.map.output.compress.codec
 Handling deprecation for mapreduce.job.reducer.preempt.delay.sec
 Handling deprecation for s3native.bytes-per-checksum
 Handling deprecation for dfs.namenode.path.based.cache.block.map.allocation.percent
+Handling deprecation for hbase.security.authentication
 Handling deprecation for mapreduce.input.fileinputformat.split.minsize
 Handling deprecation for hadoop.security.group.mapping
 Handling deprecation for mapreduce.jobtracker.system.dir
 Handling deprecation for mapreduce.job.end-notification.max.attempts
 Handling deprecation for mapreduce.reduce.markreset.buffer.percent
 Handling deprecation for mapreduce.reduce.speculative
+Handling deprecation for hbase.data.umask.enable
+Handling deprecation for hbase.snapshot.enabled
 Handling deprecation for yarn.nodemanager.localizer.cache.cleanup.interval-ms
+Handling deprecation for hbase.regionserver.checksum.verify
 Handling deprecation for mapreduce.jobhistory.recovery.store.fs.uri
 Handling deprecation for yarn.timeline-service.leveldb-timeline-store.start-time-read-cache-size
 Handling deprecation for yarn.nodemanager.keytab
@@ -505,10 +334,10 @@ Handling deprecation for dfs.namenode.replication.interval
 Handling deprecation for yarn.resourcemanager.admin.address
 Handling deprecation for mapreduce.job.maps
 Handling deprecation for nfs.dump.dir
+Handling deprecation for zookeeper.session.timeout
 Handling deprecation for mapreduce.job.user.name
 Handling deprecation for mapreduce.jobtracker.maxtasks.perjob
 Handling deprecation for mapreduce.job.ubertask.enable
-Handling deprecation for mapreduce.job.reduce.class
 Handling deprecation for yarn.nodemanager.delete.debug-delay-sec
 Handling deprecation for yarn.timeline-service.ttl-enable
 Handling deprecation for yarn.resourcemanager.fs.state-store.retry-policy-spec
@@ -519,22 +348,28 @@ Handling deprecation for yarn.resourcemanager.application-tokens.master-key-roll
 Handling deprecation for mapreduce.job.name
 Handling deprecation for mapreduce.am.max-attempts
 Handling deprecation for mapreduce.jobtracker.heartbeats.in.second
+Handling deprecation for hbase.auth.key.update.interval
 Handling deprecation for yarn.resourcemanager.zk-num-retries
 Handling deprecation for s3.blocksize
 Handling deprecation for dfs.datanode.data.dir
 Handling deprecation for mapreduce.jobtracker.persist.jobstatus.active
 Handling deprecation for mapreduce.reduce.shuffle.parallelcopies
 Handling deprecation for fs.s3.buffer.dir
+Handling deprecation for hbase.ipc.server.callqueue.handler.factor
+Handling deprecation for hbase.regionserver.logroll.period
 Handling deprecation for mapreduce.jobhistory.done-dir
 Handling deprecation for hadoop.security.instrumentation.requires.admin
 Handling deprecation for nfs.rtmax
 Handling deprecation for dfs.datanode.data.dir.perm
+Handling deprecation for hbase.rest.support.proxyuser
 Handling deprecation for yarn.resourcemanager.container.liveness-monitor.interval-ms
 Handling deprecation for yarn.nodemanager.env-whitelist
 Handling deprecation for dfs.namenode.backup.address
+Handling deprecation for hbase.hstore.compactionThreshold
 Handling deprecation for dfs.namenode.xattrs.enabled
 Handling deprecation for dfs.datanode.readahead.bytes
 Handling deprecation for mapreduce.jobhistory.cleaner.enable
+Handling deprecation for hbase.hstore.bytes.per.checksum
 Handling deprecation for dfs.client.block.write.retries
 Handling deprecation for mapreduce.tasktracker.http.address
 Handling deprecation for yarn.nodemanager.linux-container-executor.cgroups.hierarchy
@@ -542,7 +377,9 @@ Handling deprecation for ha.failover-controller.graceful-fence.connection.retrie
 Handling deprecation for yarn.resourcemanager.recovery.enabled
 Handling deprecation for yarn.app.mapreduce.am.container.log.backups
 Handling deprecation for dfs.namenode.safemode.threshold-pct
+Handling deprecation for hbase.client.prefetch.limit
 Handling deprecation for yarn.nodemanager.disk-health-checker.interval-ms
+Handling deprecation for hbase.hregion.memstore.block.multiplier
 Handling deprecation for dfs.namenode.list.cache.directives.num.responses
 Handling deprecation for dfs.datanode.dns.nameserver
 Handling deprecation for mapreduce.cluster.temp.dir
@@ -562,6 +399,8 @@ Handling deprecation for yarn.acl.enable
 Handling deprecation for file.blocksize
 Handling deprecation for mapreduce.job.speculative.slowtaskthreshold
 Handling deprecation for ftp.replication
+Handling deprecation for hbase.offheapcache.percentage
+Handling deprecation for hbase.ipc.client.fallback-to-simple-auth-allowed
 Handling deprecation for s3native.client-write-packet-size
 Handling deprecation for hadoop.rpc.socket.factory.class.default
 Handling deprecation for file.bytes-per-checksum
@@ -573,9 +412,11 @@ Handling deprecation for dfs.namenode.reject-unresolved-dn-topology-mapping
 Handling deprecation for hadoop.common.configuration.version
 Handling deprecation for yarn.resourcemanager.client.thread-count
 Handling deprecation for dfs.datanode.drop.cache.behind.reads
+Handling deprecation for hbase.thrift.htablepool.size.max
 Handling deprecation for mapreduce.jobtracker.taskcache.levels
 Handling deprecation for yarn.nodemanager.linux-container-executor.nonsecure-mode.user-pattern
 Handling deprecation for yarn.resourcemanager.zk-timeout-ms
+Handling deprecation for hbase.cluster.distributed
 Handling deprecation for mapreduce.task.tmp.dir
 Handling deprecation for yarn.resourcemanager.max-completed-applications
 Handling deprecation for mapreduce.job.jvm.numtasks
@@ -584,6 +425,7 @@ Handling deprecation for yarn.nodemanager.linux-container-executor.cgroups.mount
 Handling deprecation for mapreduce.job.end-notification.max.retry.interval
 Handling deprecation for yarn.nodemanager.resourcemanager.connect.retry_interval.secs
 Handling deprecation for mapreduce.job.speculative.speculativecap
+Handling deprecation for hbase.regions.slop
 Handling deprecation for mapreduce.job.acl-view-job
 Handling deprecation for mapreduce.job.classloader
 Handling deprecation for yarn.log-aggregation-enable
@@ -598,14 +440,16 @@ Handling deprecation for yarn.nodemanager.log.retain-seconds
 Handling deprecation for yarn.nodemanager.local-cache.max-files-per-directory
 Handling deprecation for mapreduce.job.end-notification.retry.interval
 Handling deprecation for hadoop.ssl.client.conf
+Handling deprecation for hbase.client.max.perregion.tasks
 Handling deprecation for dfs.journalnode.https-address
+Handling deprecation for hbase.master.dns.nameserver
+Handling deprecation for hbase.zookeeper.useMulti
 Handling deprecation for dfs.bytes-per-checksum
 Handling deprecation for dfs.namenode.max.objects
 Handling deprecation for mapreduce.tasktracker.instrumentation
 Handling deprecation for dfs.datanode.max.transfer.threads
 Handling deprecation for dfs.block.access.key.update.interval
 Handling deprecation for mapreduce.jobtracker.jobhistory.task.numberprogresssplits
-Handling deprecation for mapreduce.map.output.key.class
 Handling deprecation for ha.failover-controller.new-active.rpc-timeout.ms
 Handling deprecation for hadoop.ssl.hostname.verifier
 Handling deprecation for dfs.client.read.shortcircuit
@@ -613,16 +457,19 @@ Handling deprecation for dfs.datanode.hdfs-blocks-metadata.enabled
 Handling deprecation for mapreduce.tasktracker.healthchecker.interval
 Handling deprecation for dfs.image.transfer.chunksize
 Handling deprecation for mapreduce.tasktracker.taskmemorymanager.monitoringinterval
+Handling deprecation for hbase.hstore.compaction.kv.max
 Handling deprecation for dfs.client.https.keystore.resource
 Handling deprecation for yarn.resourcemanager.connect.retry-interval.ms
 Handling deprecation for yarn.timeline-service.webapp.address
 Handling deprecation for s3native.blocksize
 Handling deprecation for yarn.scheduler.minimum-allocation-mb
+Handling deprecation for hbase.hregion.max.filesize
 Handling deprecation for net.topology.impl
 Handling deprecation for dfs.client.failover.sleep.base.millis
 Handling deprecation for dfs.permissions.superusergroup
 Handling deprecation for io.seqfile.compress.blocksize
 Handling deprecation for dfs.namenode.checkpoint.edits.dir
+Handling deprecation for hbase.regionserver.region.split.policy
 Handling deprecation for dfs.blockreport.initialDelay
 Handling deprecation for dfs.namenode.safemode.extension
 Handling deprecation for yarn.scheduler.maximum-allocation-mb
@@ -635,17 +482,22 @@ Handling deprecation for dfs.namenode.delegation.key.update-interval
 Handling deprecation for hadoop.rpc.protection
 Handling deprecation for fs.permissions.umask-mode
 Handling deprecation for fs.s3.sleepTimeSeconds
+Handling deprecation for hbase.thrift.maxQueuedRequests
 Handling deprecation for ha.health-monitor.rpc-timeout.ms
 Handling deprecation for hadoop.http.staticuser.user
+Handling deprecation for hbase.hstore.blockingWaitTime
 Handling deprecation for fs.AbstractFileSystem.viewfs.impl
 Handling deprecation for fs.ftp.host
 Handling deprecation for yarn.nodemanager.linux-container-executor.nonsecure-mode.local-user
+Handling deprecation for hbase.server.thread.wakefrequency
 Handling deprecation for hadoop.http.authentication.kerberos.keytab
 Handling deprecation for mapred.remote.os
 Handling deprecation for dfs.namenode.fs-limits.max-blocks-per-file
 Handling deprecation for mapreduce.tasktracker.http.threads
 Handling deprecation for mapreduce.tasktracker.dns.nameserver
 Handling deprecation for dfs.client.block.write.replace-datanode-on-failure.enable
+Handling deprecation for hbase.client.max.total.tasks
+Handling deprecation for hbase.regionserver.info.port.auto
 Handling deprecation for io.compression.codec.bzip2.library
 Handling deprecation for mapreduce.map.skip.maxrecords
 Handling deprecation for dfs.client.use.legacy.blockreader.local
@@ -661,83 +513,106 @@ Handling deprecation for dfs.namenode.list.cache.pools.num.responses
 Handling deprecation for nfs.server.port
 Handling deprecation for mapreduce.client.output.filter
 Handling deprecation for hbase.zookeeper.quorum
+Handling deprecation for hbase.hstore.compaction.max
 Handling deprecation for ha.zookeeper.parent-znode
+Handling deprecation for hbase.rpc.shortoperation.timeout
 Handling deprecation for mapreduce.jobtracker.persist.jobstatus.hours
 Handling deprecation for yarn.nodemanager.resource.cpu-vcores
+Handling deprecation for hbase.thrift.maxWorkerThreads
 Handling deprecation for mapreduce.jobhistory.http.policy
+Handling deprecation for hbase.data.umask
 Handling deprecation for yarn.resourcemanager.webapp.delegation-token-auth-filter.enabled
 Handling deprecation for s3native.stream-buffer-size
 Handling deprecation for io.seqfile.local.dir
 Handling deprecation for yarn.log-aggregation.retain-check-interval-seconds
 Handling deprecation for fs.s3n.multipart.copy.block.size
+Handling deprecation for hbase.hregion.memstore.mslab.enabled
 Handling deprecation for mapreduce.job.jar
 Handling deprecation for dfs.datanode.sync.behind.writes
 Handling deprecation for yarn.resourcemanager.zk-acl
 Handling deprecation for hadoop.ssl.keystores.factory.class
 Handling deprecation for mapreduce.job.split.metainfo.maxsize
+Handling deprecation for hbase.hstore.flusher.count
 Handling deprecation for fs.s3.maxRetries
 Handling deprecation for dfs.namenode.stale.datanode.interval
 Handling deprecation for mapreduce.task.io.sort.mb
 Handling deprecation for yarn.resourcemanager.zk-state-store.parent-path
 Handling deprecation for yarn.app.mapreduce.client-am.ipc.max-retries
 Handling deprecation for fs.client.resolve.remote.symlinks
+Handling deprecation for hbase.regionserver.thrift.framed
 Handling deprecation for hadoop.ssl.enabled.protocols
 Handling deprecation for mapreduce.reduce.cpu.vcores
 Handling deprecation for yarn.client.failover-retries
 Handling deprecation for mapreduce.jobhistory.address
 Handling deprecation for hadoop.ssl.enabled
 Handling deprecation for dfs.replication.max
+Handling deprecation for hbase.metrics.exposeOperationTimes
 Handling deprecation for dfs.namenode.name.dir
 Handling deprecation for dfs.datanode.https.address
 Handling deprecation for ipc.client.kill.max
 Handling deprecation for mapreduce.job.committer.setup.cleanup.needed
+Handling deprecation for hbase.hregion.majorcompaction.jitter
+Handling deprecation for hbase.ipc.client.tcpnodelay
 Handling deprecation for dfs.client.domain.socket.data.traffic
 Handling deprecation for yarn.nodemanager.localizer.cache.target-size-mb
 Handling deprecation for yarn.resourcemanager.admin.client.thread-count
+Handling deprecation for hbase.coprocessor.abortonerror
 Handling deprecation for dfs.block.access.token.enable
+Handling deprecation for hbase.regionserver.global.memstore.upperLimit
 Handling deprecation for dfs.datanode.address
 Handling deprecation for mapreduce.jobtracker.restart.recover
+Handling deprecation for hbase.tmp.dir
 Handling deprecation for ipc.client.connect.max.retries
 Handling deprecation for yarn.timeline-service.store-class
 Handling deprecation for dfs.short.circuit.shared.memory.watcher.interrupt.check.ms
 Handling deprecation for hadoop.tmp.dir
+Handling deprecation for hbase.master.logcleaner.ttl
 Handling deprecation for dfs.datanode.handler.count
 Handling deprecation for yarn.resourcemanager.ha.automatic-failover.embedded
+Handling deprecation for fail.fast.expired.active.master
+Handling deprecation for hbase.regionserver.port
 Handling deprecation for yarn.timeline-service.ttl-ms
 Handling deprecation for mapreduce.task.profile.map.params
 Handling deprecation for yarn.resourcemanager.nodemanagers.heartbeat-interval-ms
 Handling deprecation for mapreduce.map.speculative
+Handling deprecation for hbase.zookeeper.dns.interface
 Handling deprecation for mapreduce.job.map.class
-Handling deprecation for hbase.mapred.outputtable
 Handling deprecation for yarn.nodemanager.recovery.dir
 Handling deprecation for mapreduce.job.counters.max
 Handling deprecation for yarn.resourcemanager.keytab
 Handling deprecation for dfs.namenode.max.extra.edits.segments.retained
 Handling deprecation for dfs.webhdfs.user.provider.user.pattern
+Handling deprecation for hbase.zookeeper.property.initLimit
 Handling deprecation for dfs.client.mmap.enabled
 Handling deprecation for mapreduce.map.log.level
 Handling deprecation for dfs.client.file-block-storage-locations.timeout.millis
 Handling deprecation for yarn.app.mapreduce.am.scheduler.heartbeat.interval-ms
+Handling deprecation for hbase.mapreduce.inputtable
 Handling deprecation for hadoop.fuse.timer.period
 Handling deprecation for fs.trash.checkpoint.interval
 Handling deprecation for dfs.journalnode.http-address
 Handling deprecation for yarn.app.mapreduce.am.staging-dir
 Handling deprecation for mapreduce.tasktracker.local.dir.minspacestart
+Handling deprecation for hbase.lease.recovery.dfs.timeout
 Handling deprecation for yarn.nm.liveness-monitor.expiry-interval-ms
 Handling deprecation for ha.health-monitor.check-interval.ms
 Handling deprecation for mapreduce.reduce.shuffle.merge.percent
 Handling deprecation for dfs.namenode.retrycache.heap.percent
 Handling deprecation for ipc.client.connect.timeout
+Handling deprecation for hbase.regionserver.thrift.compact
+Handling deprecation for hbase.table.lock.enable
 Handling deprecation for mapreduce.output.fileoutputformat.compress
 Handling deprecation for yarn.nodemanager.local-dirs
 Handling deprecation for yarn.nodemanager.recovery.enabled
 Handling deprecation for io.native.lib.available
+Handling deprecation for zookeeper.znode.parent
 Handling deprecation for mapreduce.job.outputformat.class
 Handling deprecation for yarn.resourcemanager.am.max-attempts
 Handling deprecation for s3.replication
-Handling deprecation for mapreduce.input.fileinputformat.inputdir
 Handling deprecation for fs.AbstractFileSystem.har.impl
+Handling deprecation for hbase.ipc.server.callqueue.read.share
 Handling deprecation for dfs.image.compress
+Handling deprecation for hbase.client.prefetch
 Handling deprecation for mapreduce.reduce.input.buffer.percent
 Handling deprecation for yarn.nodemanager.webapp.address
 Handling deprecation for dfs.datanode.available-space-volume-choosing-policy.balanced-space-preference-fraction
@@ -752,13 +627,19 @@ Handling deprecation for hadoop.security.group.mapping.ldap.search.attr.group.na
 Handling deprecation for yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage
 Handling deprecation for yarn.nodemanager.container-monitor.procfs-tree.smaps-based-rss.enabled
 Handling deprecation for mapreduce.job.submithostname
+Handling deprecation for hbase.master.info.bindAddress
 Handling deprecation for mapreduce.map.sort.spill.percent
+Handling deprecation for hbase.lease.recovery.timeout
 Handling deprecation for dfs.namenode.http-address
+Handling deprecation for hbase.regionserver.thrift.framed.max_frame_size_in_mb
+Handling deprecation for hbase.zookeeper.property.maxClientCnxns
 Handling deprecation for hadoop.ssl.server.conf
 Handling deprecation for mapreduce.ifile.readahead
 Handling deprecation for s3native.replication
 Handling deprecation for yarn.client.nodemanager-client-async.thread-pool-max-size
 Handling deprecation for mapreduce.jobtracker.staging.root.dir
+Handling deprecation for hbase.hregion.memstore.flush.size
+Handling deprecation for hbase.online.schema.update.enable
 Handling deprecation for mapreduce.jobhistory.admin.address
 Handling deprecation for dfs.namenode.startup.delay.block.deletion.sec
 Handling deprecation for yarn.nodemanager.health-checker.interval-ms
@@ -769,13 +650,18 @@ Handling deprecation for dfs.datanode.fsdatasetcache.max.threads.per.volume
 Handling deprecation for mapreduce.output.fileoutputformat.compress.codec
 Handling deprecation for yarn.timeline-service.keytab
 Handling deprecation for mapreduce.jobhistory.webapp.address
+Handling deprecation for hbase.regionserver.logroll.errors.tolerated
+Handling deprecation for hbase.rest.filter.classes
 Handling deprecation for mapreduce.task.userlog.limit.kb
+Handling deprecation for hbase.bulkload.retries.number
+Handling deprecation for hbase.security.exec.permission.checks
 Handling deprecation for yarn.app.mapreduce.task.container.log.backups
 Handling deprecation for dfs.heartbeat.interval
+Handling deprecation for hbase.regionserver.hlog.reader.impl
 Handling deprecation for ha.zookeeper.session-timeout.ms
+Handling deprecation for hbase.zookeeper.peerport
 Handling deprecation for hadoop.http.authentication.signature.secret.file
 Handling deprecation for hadoop.fuse.connection.timeout
-Handling deprecation for mapreduce.input.fileinputformat.numinputfiles
 Handling deprecation for yarn.nodemanager.log-aggregation.compression-type
 Handling deprecation for yarn.nodemanager.log-dirs
 Handling deprecation for yarn.app.mapreduce.am.resource.mb
@@ -784,6 +670,7 @@ Handling deprecation for yarn.nodemanager.container-monitor.interval-ms
 Handling deprecation for mapreduce.jobhistory.recovery.store.class
 Handling deprecation for s3.client-write-packet-size
 Handling deprecation for mapreduce.jobtracker.instrumentation
+Handling deprecation for hbase.master.port
 Handling deprecation for dfs.replication
 Handling deprecation for mapreduce.shuffle.transfer.buffer.size
 Handling deprecation for hadoop.security.group.mapping.ldap.directory.search.timeout
@@ -796,6 +683,7 @@ Handling deprecation for mapreduce.tasktracker.indexcache.mb
 Handling deprecation for yarn.scheduler.maximum-allocation-vcores
 Handling deprecation for mapreduce.job.reduces
 Handling deprecation for yarn.nodemanager.sleep-delay-before-sigkill.ms
+Handling deprecation for hbase.dfs.client.read.shortcircuit.buffer.size
 Handling deprecation for yarn.timeline-service.address
 Handling deprecation for yarn.resourcemanager.configuration.provider-class
 Handling deprecation for tfile.io.chunk.size
@@ -803,9 +691,13 @@ Handling deprecation for mapreduce.job.acl-modify-job
 Handling deprecation for fs.automatic.close
 Handling deprecation for ha.health-monitor.sleep-after-disconnect.ms
 Handling deprecation for mapreduce.tasktracker.reduce.tasks.maximum
+Handling deprecation for io.storefile.bloom.block.size
+Handling deprecation for hbase.status.multicast.address.ip
 Handling deprecation for mapreduce.input.fileinputformat.list-status.num-threads
 Handling deprecation for dfs.datanode.directoryscan.threads
+Handling deprecation for hfile.format.version
 Handling deprecation for dfs.datanode.directoryscan.interval
+Handling deprecation for hbase.zookeeper.dns.nameserver
 Handling deprecation for dfs.namenode.acls.enabled
 Handling deprecation for dfs.client.short.circuit.replica.stale.threshold.ms
 Handling deprecation for hadoop.http.authentication.token.validity
@@ -817,8 +709,10 @@ Handling deprecation for dfs.namenode.datanode.registration.ip-hostname-check
 Handling deprecation for yarn.resourcemanager.nm.liveness-monitor.interval-ms
 Handling deprecation for mapreduce.jobhistory.intermediate-done-dir
 Handling deprecation for mapreduce.jobtracker.http.address
+Handling deprecation for hbase.dynamic.jars.dir
 Handling deprecation for dfs.namenode.backup.http-address
 Handling deprecation for dfs.namenode.edits.noeditlogchannelflush
+Handling deprecation for hbase.status.multicast.address.port
 Handling deprecation for mapreduce.reduce.shuffle.input.buffer.percent
 Handling deprecation for mapreduce.map.maxattempts
 Handling deprecation for yarn.http.policy
@@ -831,7 +725,9 @@ Handling deprecation for mapreduce.reduce.skip.proc.count.autoincr
 Handling deprecation for mapreduce.ifile.readahead.bytes
 Handling deprecation for dfs.http.policy
 Handling deprecation for dfs.namenode.safemode.min.datanodes
+Handling deprecation for hbase.regionserver.catalog.timeout
 Handling deprecation for dfs.client.file-block-storage-locations.num-threads
+Handling deprecation for hbase.hstore.blockingStoreFiles
 Handling deprecation for mapreduce.cluster.local.dir
 Handling deprecation for mapred.jar
 Handling deprecation for mapreduce.tasktracker.report.address
@@ -839,6 +735,7 @@ Handling deprecation for dfs.namenode.secondary.https-address
 Handling deprecation for hadoop.kerberos.kinit.command
 Handling deprecation for dfs.block.access.token.lifetime
 Handling deprecation for dfs.webhdfs.enabled
+Handling deprecation for hbase.rest.readonly
 Handling deprecation for dfs.namenode.delegation.token.max-lifetime
 Handling deprecation for dfs.namenode.avoid.write.stale.datanode
 Handling deprecation for dfs.datanode.drop.cache.behind.writes
@@ -854,16 +751,19 @@ Handling deprecation for mapreduce.job.map.output.collector.class
 Handling deprecation for ha.health-monitor.connect-retry-interval.ms
 Handling deprecation for mapreduce.shuffle.max.threads
 Handling deprecation for nfs.exports.allowed.hosts
+Handling deprecation for hbase.config.read.zookeeper.config
 Handling deprecation for dfs.client.mmap.cache.size
 Handling deprecation for mapreduce.tasktracker.map.tasks.maximum
 Handling deprecation for io.file.buffer.size
 Handling deprecation for dfs.client.datanode-restart.timeout
 Handling deprecation for io.mapfile.bloom.size
+Handling deprecation for hbase.status.publisher.class
 Handling deprecation for dfs.namenode.checkpoint.txns
 Handling deprecation for ipc.client.connect.retry.interval
 Handling deprecation for dfs.client-write-packet-size
 Handling deprecation for mapreduce.reduce.shuffle.connect.timeout
 Handling deprecation for yarn.resourcemanager.fs.state-store.uri
+Handling deprecation for hbase.hstore.checksum.algorithm
 Handling deprecation for fs.swift.impl
 Handling deprecation for mapred.queue.default.acl-administer-jobs
 Handling deprecation for mapreduce.job.submithostaddress
@@ -871,19 +771,26 @@ Handling deprecation for dfs.cachereport.intervalMsec
 Handling deprecation for yarn.timeline-service.generic-application-history.fs-history-store.compression-type
 Handling deprecation for yarn.app.mapreduce.am.container.log.limit.kb
 Handling deprecation for yarn.nodemanager.resourcemanager.minimum.version
+Handling deprecation for hbase.snapshot.restore.failsafe.name
 Handling deprecation for ftp.blocksize
 Handling deprecation for yarn.resourcemanager.address
 Handling deprecation for file.stream-buffer-size
 Handling deprecation for yarn.resourcemanager.scheduler.monitor.enable
+Handling deprecation for hbase.metrics.showTableName
 Handling deprecation for mapreduce.job.ubertask.maxreduces
 Handling deprecation for nfs.allow.insecure.ports
 Handling deprecation for ipc.client.idlethreshold
 Handling deprecation for ftp.stream-buffer-size
+Handling deprecation for hbase.mapreduce.scan
 Handling deprecation for dfs.client.failover.connection.retries.on.timeouts
+Handling deprecation for hbase.status.published
+Handling deprecation for hbase.server.versionfile.writeattempts
 Handling deprecation for dfs.namenode.replication.work.multiplier.per.iteration
 Handling deprecation for hadoop.http.authentication.simple.anonymous.allowed
 Handling deprecation for hadoop.security.authorization
+Handling deprecation for hbase.client.retries.number
 Handling deprecation for yarn.client.max-nodemanagers-proxies
+Handling deprecation for hbase.defaults.for.version
 Handling deprecation for yarn.am.liveness-monitor.expiry-interval-ms
 Handling deprecation for fs.har.impl.disable.cache
 Handling deprecation for yarn.nodemanager.linux-container-executor.resources-handler.class
@@ -903,60 +810,81 @@ Handling deprecation for mapreduce.jobhistory.joblist.cache.size
 Handling deprecation for dfs.namenode.accesstime.precision
 Handling deprecation for yarn.resourcemanager.work-preserving-recovery.enabled
 Handling deprecation for dfs.namenode.fs-limits.max-xattrs-per-inode
-Handling deprecation for mapreduce.map.output.value.class
 Handling deprecation for io.mapfile.bloom.error.rate
 Handling deprecation for yarn.resourcemanager.store.class
 Handling deprecation for dfs.image.transfer.timeout
 Handling deprecation for nfs.wtmax
 Handling deprecation for dfs.namenode.support.allow.format
+Handling deprecation for hbase.regionserver.hlog.writer.impl
 Handling deprecation for dfs.secondary.namenode.kerberos.internal.spnego.principal
+Handling deprecation for hbase.zookeeper.leaderport
 Handling deprecation for dfs.stream-buffer-size
 Handling deprecation for dfs.namenode.invalidate.work.pct.per.iteration
 Handling deprecation for yarn.nodemanager.container-executor.class
+Handling deprecation for hbase.thrift.minWorkerThreads
 Handling deprecation for yarn.resourcemanager.scheduler.client.thread-count
 Handling deprecation for hadoop.user.group.static.mapping.overrides
 Handling deprecation for tfile.fs.input.buffer.size
 Handling deprecation for dfs.client.cached.conn.retry
+Handling deprecation for hbase.client.max.perserver.tasks
 Handling deprecation for hadoop.http.authentication.type
 Handling deprecation for mapreduce.map.cpu.vcores
+Handling deprecation for hbase.master.dns.interface
+Handling deprecation for hbase.rest.threads.min
 Handling deprecation for dfs.namenode.path.based.cache.refresh.interval.ms
+Handling deprecation for hbase.status.listener.class
 Handling deprecation for dfs.namenode.decommission.interval
+Handling deprecation for hbase.storescanner.parallel.seek.threads
 Handling deprecation for dfs.namenode.fs-limits.max-directory-items
 Handling deprecation for yarn.resourcemanager.zk-retry-interval-ms
+Handling deprecation for hbase.hregion.preclose.flush.size
 Handling deprecation for ftp.bytes-per-checksum
 Handling deprecation for dfs.ha.log-roll.period
 Handling deprecation for yarn.resourcemanager.amliveliness-monitor.interval-ms
 Handling deprecation for ipc.client.fallback-to-simple-auth-allowed
 Handling deprecation for yarn.nodemanager.pmem-check-enabled
 Handling deprecation for yarn.nodemanager.remote-app-log-dir
+Handling deprecation for hbase.client.keyvalue.maxsize
 Handling deprecation for mapreduce.task.profile.maps
 Handling deprecation for mapreduce.shuffle.ssl.file.buffer.size
 Handling deprecation for mapreduce.tasktracker.healthchecker.script.timeout
+Handling deprecation for hbase.client.scanner.caching
+Handling deprecation for hbase.rpc.timeout
+Handling deprecation for hbase.regionserver.optionalcacheflushinterval
 Handling deprecation for yarn.timeline-service.webapp.https.address
+Handling deprecation for hbase.rpc.server.engine
 Handling deprecation for yarn.app.mapreduce.am.command-opts
 Handling deprecation for dfs.namenode.fs-limits.max-xattr-size
 Handling deprecation for hbase.zookeeper.property.clientPort
 Handling deprecation for dfs.datanode.http.address
+Handling deprecation for hbase.zookeeper.property.syncLimit
 Handling deprecation for hadoop.jetty.logs.serve.aliases
+Handling deprecation for hbase.zookeeper.property.dataDir
 Handling deprecation for yarn.client.failover-proxy-provider
 Handling deprecation for mapreduce.jobhistory.admin.acl
 Handling deprecation for yarn.nodemanager.remote-app-log-dir-suffix
 Handling deprecation for mapreduce.jobhistory.principal
+Handling deprecation for hbase.storescanner.parallel.seek.enable
 Handling deprecation for yarn.resourcemanager.webapp.address
 Handling deprecation for mapreduce.jobhistory.recovery.enable
 Handling deprecation for nfs.mountd.port
 Handling deprecation for mapreduce.reduce.merge.inmem.threshold
+Handling deprecation for hbase.local.dir
+Handling deprecation for hbase.snapshot.format.version
 Handling deprecation for fs.df.interval
+Handling deprecation for hbase.master.catalog.timeout
 Handling deprecation for yarn.timeline-service.enabled
 Handling deprecation for yarn.timeline-service.generic-application-history.fs-history-store.uri
 Handling deprecation for mapreduce.jobtracker.jobhistory.lru.cache.size
 Handling deprecation for mapreduce.task.profile
+Handling deprecation for hbase.client.write.buffer
 Handling deprecation for yarn.nodemanager.hostname
 Handling deprecation for dfs.namenode.num.checkpoints.retained
 Handling deprecation for mapreduce.job.queuename
 Handling deprecation for mapreduce.jobhistory.max-age-ms
 Handling deprecation for mapreduce.job.token.tracking.ids.enabled
 Handling deprecation for yarn.nodemanager.localizer.client.thread-count
+Handling deprecation for index.tableName
 Handling deprecation for dfs.https.enable
 Handling deprecation for dfs.client.mmap.retry.timeout.ms
 Handling deprecation for mapreduce.jobhistory.move.thread-count
@@ -965,8 +893,10 @@ Handling deprecation for dfs.blockreport.split.threshold
 Handling deprecation for fs.AbstractFileSystem.hdfs.impl
 Handling deprecation for mapreduce.job.inputformat.class
 Handling deprecation for dfs.datanode.balance.bandwidthPerSec
+Handling deprecation for hbase.column.max.version
 Handling deprecation for hadoop.http.filter.initializers
 Handling deprecation for dfs.default.chunk.view.size
+Handling deprecation for hbase.snapshot.restore.take.failsafe.snapshot
 Handling deprecation for yarn.resourcemanager.resource-tracker.address
 Handling deprecation for mapreduce.job.working.dir
 Handling deprecation for mapreduce.jobhistory.datestring.cache.size
@@ -975,11 +905,14 @@ Handling deprecation for dfs.namenode.handler.count
 Handling deprecation for dfs.image.transfer.bandwidthPerSec
 Handling deprecation for rpc.metrics.quantile.enable
 Handling deprecation for mapreduce.jobtracker.expire.trackers.interval
+Handling deprecation for hbase.security.visibility.mutations.checkauths
 Handling deprecation for mapreduce.task.timeout
 Handling deprecation for yarn.app.mapreduce.client.max-retries
 Handling deprecation for yarn.nodemanager.resource.memory-mb
 Handling deprecation for yarn.nodemanager.disk-health-checker.min-healthy-disks
 Handling deprecation for dfs.datanode.failed.volumes.tolerated
+Handling deprecation for hbase.regionserver.dns.interface
+Handling deprecation for hbase.master.loadbalancer.class
 Handling deprecation for yarn.timeline-service.handler-thread-count
 Handling deprecation for ipc.server.listen.queue.size
 Handling deprecation for yarn.resourcemanager.connect.max-wait.ms
@@ -987,6 +920,7 @@ Handling deprecation for mapreduce.framework.name
 Handling deprecation for mapreduce.map.skip.proc.count.autoincr
 Handling deprecation for yarn.resourcemanager.history-writer.multi-threaded-dispatcher.pool-size
 Handling deprecation for mapreduce.job.max.split.locations
+Handling deprecation for hbase.regionserver.msginterval
 Handling deprecation for yarn.resourcemanager.scheduler.class
 Handling deprecation for dfs.blocksize
 Handling deprecation for mapreduce.shuffle.connection-keep-alive.enable
@@ -1000,12 +934,15 @@ Handling deprecation for yarn.timeline-service.generic-application-history.store
 Handling deprecation for dfs.datanode.shared.file.descriptor.paths
 Handling deprecation for yarn.resourcemanager.delayed.delegation-token.removal-interval-ms
 Handling deprecation for yarn.nodemanager.localizer.fetch.thread-count
+Handling deprecation for hbase.regionserver.handler.count
 Handling deprecation for dfs.client.failover.max.attempts
 Handling deprecation for yarn.resourcemanager.scheduler.address
 Handling deprecation for dfs.client.read.shortcircuit.streams.cache.expiry.ms
 Handling deprecation for yarn.ipc.serializer.type
 Handling deprecation for yarn.timeline-service.leveldb-timeline-store.start-time-write-cache-size
 Handling deprecation for yarn.nodemanager.health-checker.script.timeout-ms
+Handling deprecation for hbase.defaults.for.version.skip
+Handling deprecation for hfile.block.cache.size
 Handling deprecation for hadoop.ssl.require.client.cert
 Handling deprecation for hadoop.security.uid.cache.secs
 Handling deprecation for mapreduce.jobhistory.keytab
@@ -1014,24 +951,30 @@ Handling deprecation for yarn.resourcemanager.ha.automatic-failover.zk-base-path
 Handling deprecation for mapreduce.shuffle.ssl.enabled
 Handling deprecation for mapreduce.reduce.log.level
 Handling deprecation for dfs.namenode.logging.level
+Handling deprecation for hbase.server.compactchecker.interval.multiplier
+Handling deprecation for zookeeper.znode.rootserver
+Handling deprecation for zookeeper.znode.acl.parent
 Handling deprecation for mapreduce.tasktracker.dns.interface
 Handling deprecation for dfs.datanode.use.datanode.hostname
 Handling deprecation for dfs.client.context
 Handling deprecation for yarn.resourcemanager.ha.enabled
-Handling deprecation for mapred.reducer.new-api
+Handling deprecation for index.fields
 Handling deprecation for dfs.namenode.delegation.token.renew-interval
 Handling deprecation for ipc.client.tcpnodelay
+Handling deprecation for hbase.regionserver.info.port
 Handling deprecation for dfs.blockreport.intervalMsec
 Handling deprecation for mapreduce.reduce.shuffle.memory.limit.percent
 Handling deprecation for dfs.https.server.keystore.resource
 Handling deprecation for io.map.index.skip
 Handling deprecation for mapreduce.job.hdfs-servers
+Handling deprecation for hbase.master.info.port
 Handling deprecation for mapreduce.jobtracker.taskscheduler
 Handling deprecation for dfs.namenode.kerberos.internal.spnego.principal
 Handling deprecation for yarn.resourcemanager.state-store.max-completed-applications
 Handling deprecation for mapreduce.map.output.compress
 Handling deprecation for dfs.namenode.decommission.nodes.per.interval
 Handling deprecation for fs.s3n.multipart.uploads.block.size
+Handling deprecation for hbase.rest.port
 Handling deprecation for mapreduce.task.merge.progress.records
 Handling deprecation for dfs.datanode.dns.interface
 Handling deprecation for map.sort.class
@@ -1040,6 +983,7 @@ Handling deprecation for yarn.nodemanager.resourcemanager.connect.wait.secs
 Handling deprecation for tfile.fs.output.buffer.size
 Handling deprecation for fs.du.interval
 Handling deprecation for dfs.client.failover.connection.retries
+Handling deprecation for hfile.block.bloom.cacheonwrite
 Handling deprecation for mapreduce.job.dir
 Handling deprecation for mapreduce.reduce.shuffle.retry-delay.max.ms
 Handling deprecation for mapreduce.client.progressmonitor.pollinterval
@@ -1050,102 +994,376 @@ Handling deprecation for dfs.ha.fencing.ssh.connect-timeout
 Handling deprecation for dfs.namenode.fs-limits.max-component-length
 Handling deprecation for dfs.namenode.enable.retrycache
 Handling deprecation for dfs.datanode.du.reserved
+Handling deprecation for hbase.rest.threads.max
+Handling deprecation for hbase.client.pause
 Handling deprecation for dfs.datanode.ipc.address
 Handling deprecation for dfs.client.block.write.replace-datanode-on-failure.policy
 Handling deprecation for dfs.namenode.path.based.cache.retry.interval.ms
+Handling deprecation for hbase.regionserver.global.memstore.lowerLimit
 Handling deprecation for dfs.ha.tail-edits.period
+Handling deprecation for hfile.block.index.cacheonwrite
 Handling deprecation for mapreduce.task.profile.reduce.params
 Handling deprecation for yarn.resourcemanager.hostname
 Handling deprecation for hadoop.security.group.mapping.ldap.search.filter.group
 Handling deprecation for hadoop.http.authentication.kerberos.principal
+Handling deprecation for hbase.balancer.period
 Handling deprecation for hadoop.security.group.mapping.ldap.search.filter.user
 Handling deprecation for yarn.nodemanager.disk-health-checker.min-free-space-per-disk-mb
 Handling deprecation for dfs.namenode.edits.dir
 Handling deprecation for yarn.client.failover-retries-on-socket-timeouts
 Handling deprecation for mapreduce.client.completion.pollinterval
 Handling deprecation for dfs.namenode.name.dir.restore
+Handling deprecation for hadoop.policy.file
 Handling deprecation for dfs.namenode.secondary.http-address
 Handling deprecation for s3.bytes-per-checksum
+Handling deprecation for hfile.index.block.max.size
 Handling deprecation for dfs.support.append
 Handling deprecation for yarn.resourcemanager.webapp.https.address
+Handling deprecation for hbase.regionserver.info.bindAddress
 Handling deprecation for yarn.nodemanager.vmem-pmem-ratio
 Handling deprecation for dfs.namenode.checkpoint.period
+Handling deprecation for index.familyname
 Handling deprecation for dfs.ha.automatic-failover.enabled
-DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-DFSClient writeChunk packet full seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml, bytesCurBlock=65024, blockSize=134217728, appendChunk=false
+DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+DFSClient writeChunk packet full seqno=0, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml, bytesCurBlock=65024, blockSize=134217728, appendChunk=false
 Queued packet 0
-Allocating new block
-computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml, chunkSize=516, chunksPerPacket=127, packetSize=65532
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #27
-DFSClient writeChunk allocating new packet seqno=1, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=65024
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #27
-Call: addBlock took 5ms
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-Connecting to datanode 192.168.216.132:50010
-Send buf size 131072
+computePacketChunkSize: src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml, chunkSize=516, chunksPerPacket=127, packetSize=65532
+DFSClient writeChunk allocating new packet seqno=1, src=/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=65024
 Queued packet 1
 Queued packet 2
 Waiting for ack for: 2
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742455_1631 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 65024
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742455_1631 sending packet packet seqno:1 offsetInBlock:65024 lastPacketInBlock:false lastByteOffsetInBlock: 82857
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 20330487
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 20323579
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742455_1631 sending packet packet seqno:2 offsetInBlock:82857 lastPacketInBlock:true lastByteOffsetInBlock: 82857
-DFSClient seqno: 2 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 11166838
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #28
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #28
-Call: complete took 3ms
-Submitting tokens for job: job_1422425126474_0006
+Allocating new block
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #24
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #24
+Call: addBlock took 7ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742545_1721 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 65024
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742545_1721 sending packet packet seqno:1 offsetInBlock:65024 lastPacketInBlock:false lastByteOffsetInBlock: 99884
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 50257554
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 10232085
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742545_1721 sending packet packet seqno:2 offsetInBlock:99884 lastPacketInBlock:true lastByteOffsetInBlock: 99884
+DFSClient seqno: 2 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2792021
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742545_1721
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #25
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #25
+Call: complete took 1ms
+Submitting tokens for job: job_1422589044103_0001
 Connecting to HistoryServer at: 192.168.216.130:10020
 Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
 Connected to HistoryServer at: 192.168.216.130:10020
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapred.ClientCache.instantiateHistoryProxy(ClientCache.java:92)
 Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.mapreduce.v2.api.HSClientProtocol
-getting client out of cache: org.apache.hadoop.ipc.Client@1be2019a
+getting client out of cache: org.apache.hadoop.ipc.Client@69504ae9
 AppMaster capability = <memory:1536, vCores:1>
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #29
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #29
-Call: getFileInfo took 1ms
-Creating setup context, jobSubmitDir url is scheme: "hdfs" host: "192.168.216.130" port: 9000 file: "/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422425126474_0006"
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #30
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #30
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #31
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #31
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #32
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #32
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #33
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #33
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #34
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #34
-Call: getFileInfo took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #35
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #35
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #26
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #26
 Call: getFileInfo took 0ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #36
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #36
+Creating setup context, jobSubmitDir url is scheme: "hdfs" host: "192.168.216.130" port: 9000 file: "/tmp/hadoop-yarn/staging/hadoop/.staging/job_1422589044103_0001"
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #27
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #27
 Call: getFileInfo took 0ms
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop sending #37
-IPC Client (1209702763) connection to /192.168.216.130:9000 from hadoop got value #37
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #28
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #28
 Call: getFileInfo took 1ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #29
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #29
+Call: getFileInfo took 0ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #30
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #30
+Call: getFileInfo took 2ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #31
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #31
+Call: getFileInfo took 0ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #32
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #32
+Call: getFileInfo took 0ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #33
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #33
+Call: getFileInfo took 1ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop sending #34
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop got value #34
+Call: getFileInfo took 0ms
 Command to launch container for ApplicationMaster is : $JAVA_HOME/bin/java -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=<LOG_DIR> -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA  -Xmx1024m org.apache.hadoop.mapreduce.v2.app.MRAppMaster 1><LOG_DIR>/stdout 2><LOG_DIR>/stderr 
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop sending #38
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop got value #38
-Call: submitApplication took 3ms
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop sending #39
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop got value #39
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #35
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #35
+Call: submitApplication took 865ms
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #36
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #36
+Call: getApplicationReport took 252ms
+Submitted application application_1422589044103_0001
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #37
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #37
+Call: getApplicationReport took 361ms
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #38
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #38
+Call: getApplicationReport took 1ms
+IPC Client (318857719) connection to Slaver3.Hadoop/192.168.216.134:60020 from hadoop: closed
+IPC Client (318857719) connection to Slaver3.Hadoop/192.168.216.134:60020 from hadoop: stopped, connections 2
+The url to track the job: http://Master.Hadoop:8088/proxy/application_1422589044103_0001/
+Running job: job_1422589044103_0001
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #39
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #39
+Call: getApplicationReport took 56ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #40
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #40
+Call: getApplicationReport took 218ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #41
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #41
+Call: getApplicationReport took 16ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #42
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #42
+Call: getApplicationReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #43
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #43
+Call: getApplicationReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #44
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #44
+Call: getApplicationReport took 140ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #45
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #45
+Call: getApplicationReport took 123ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #46
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #46
 Call: getApplicationReport took 3ms
-Submitted application application_1422425126474_0006
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop sending #40
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop got value #40
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #47
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #47
+Call: getApplicationReport took 18ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #48
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #48
+Call: getApplicationReport took 33ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #49
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #49
+Call: getApplicationReport took 73ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #50
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #50
+Call: getApplicationReport took 20ms
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: closed
+IPC Client (318857719) connection to Master.Hadoop/192.168.216.130:60000 from hadoop: stopped, connections 1
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: closed
+IPC Client (318857719) connection to Slaver2.Hadoop/192.168.216.133:60020 from hadoop: stopped, connections 0
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #51
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #51
+Call: getApplicationReport took 81ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #52
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #52
+Call: getApplicationReport took 2ms
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop: closed
+IPC Client (318857719) connection to /192.168.216.130:9000 from hadoop: stopped, remaining connections 1
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #53
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #53
+Call: getApplicationReport took 34ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #54
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #54
+Call: getApplicationReport took 105ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #55
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #55
 Call: getApplicationReport took 1ms
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop sending #41
-IPC Client (1209702763) connection to /192.168.216.130:8032 from hadoop got value #41
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #56
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #56
+Call: getApplicationReport took 2ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #57
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #57
+Call: getApplicationReport took 26ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #58
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #58
+Call: getApplicationReport took 6ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #59
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #59
 Call: getApplicationReport took 1ms
-The url to track the job: http://Master.Hadoop:8088/proxy/application_1422425126474_0006/
-Running job: job_1422425126474_0006
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #60
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #60
+Call: getApplicationReport took 22ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #61
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #61
+Call: getApplicationReport took 17ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #62
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #62
+Call: getApplicationReport took 85ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #63
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #63
+Call: getApplicationReport took 7ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #64
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #64
+Call: getApplicationReport took 10ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #65
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #65
+Call: getApplicationReport took 75ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #66
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #66
+Call: getApplicationReport took 75ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #67
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #67
+Call: getApplicationReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #68
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #68
+Call: getApplicationReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #69
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #69
+Call: getApplicationReport took 2ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #70
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #70
+Call: getApplicationReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #71
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #71
+Call: getApplicationReport took 415ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #72
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #72
+Call: getApplicationReport took 704ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #73
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #73
+Call: getApplicationReport took 3ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #74
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #74
+Call: getApplicationReport took 126ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #75
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #75
+Call: getApplicationReport took 318ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #76
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #76
+Call: getApplicationReport took 2ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #77
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #77
+Call: getApplicationReport took 20ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #78
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #78
+Call: getApplicationReport took 11ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop sending #79
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop got value #79
+Call: getApplicationReport took 13ms
+Connecting to Slaver1.Hadoop/192.168.216.132:48582
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapred.ClientServiceDelegate.getProxy(ClientServiceDelegate.java:198)
+Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
+Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.mapreduce.v2.api.MRClientProtocol
+getting client out of cache: org.apache.hadoop.ipc.Client@69504ae9
+The ping interval is 60000 ms.
+Connecting to Slaver1.Hadoop/192.168.216.132:48582
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop: starting, having connections 2
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #80
+Lease renewer daemon for [] with renew id 1 executed
+Got ping response for sessionid: 0x14b39b131720003 after 27ms
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #80
+Call: getJobReport took 3727ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #81
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #81
+Call: getJobReport took 84ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #82
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #82
+Call: getJobReport took 10ms
+Job job_1422589044103_0001 running in uber mode : false
+ map 0% reduce 0%
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #83
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #83
+Call: getTaskAttemptCompletionEvents took 521ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #84
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #84
+Call: getJobReport took 3ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #85
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #85
+Call: getJobReport took 8ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #86
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #86
+Call: getTaskAttemptCompletionEvents took 40ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #87
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #87
+Call: getJobReport took 992ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #88
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #88
+Call: getJobReport took 7ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #89
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #89
+Call: getTaskAttemptCompletionEvents took 14ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #90
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #90
+Call: getJobReport took 4ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #91
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #91
+Call: getJobReport took 10ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #92
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #92
+Call: getTaskAttemptCompletionEvents took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #93
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #93
+Call: getJobReport took 3ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #94
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #94
+Call: getJobReport took 1ms
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop: closed
+IPC Client (318857719) connection to /192.168.216.130:8032 from hadoop: stopped, remaining connections 1
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #95
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #95
+Call: getTaskAttemptCompletionEvents took 2ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #96
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #96
+Call: getJobReport took 2ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #97
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #97
+Call: getJobReport took 1ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #98
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #98
+Call: getTaskAttemptCompletionEvents took 4ms
+PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #99
+IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #99
