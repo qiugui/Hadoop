@@ -1,7 +1,7 @@
  package com.hadoop.examples.hbase.mapred;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
+//import java.io.ByteArrayOutputStream;
+//import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.util.HashMap;
@@ -51,17 +51,20 @@ public class IndexBuilder {
 		
 		//实现map函数
 		@SuppressWarnings({ "rawtypes", "unchecked" })
-		public void map(ImmutableBytesWritable key,Result value,org.apache.hadoop.mapreduce.Reducer.Context context) throws IOException, InterruptedException{
+		public void map(ImmutableBytesWritable key,Result value,org.apache.hadoop.mapreduce.lib.map.WrappedMapper.Context context) throws IOException, InterruptedException{
 			
 			for (Entry<byte[], ImmutableBytesWritable> index : indexes.entrySet()){
-				//获取列名
-				byte[] qualifier = index.getKey();
 				
 				//索引表的表名
 				ImmutableBytesWritable tableName = index.getValue();
 				
+				//获取列簇的限定词
+				byte[] qualifier = index.getKey();
+				
 				//根据“列簇： 列名”获得元素值
 				byte[] newValue = value.getValue(family, qualifier);
+				
+				System.out.println(newValue.toString());
 				
 				if (newValue != null){
 					//以列值作为行键，在列“INDEX:ROW”中插入行键
@@ -81,11 +84,12 @@ public class IndexBuilder {
 			
 			//通过set方法传递参数
 			String tableName = conf.get("index.tablename");
-			String[] fields = conf.getStrings("index.fields");
 			
 			//fields内为需要做索引的列名
 			String familyName = conf.get("index.familyname");
 			family = Bytes.toBytes(familyName);
+			
+			String[] fields = conf.getStrings("index.fields");
 			
 			//初始化indexs方法
 			indexes = new HashMap<byte[], ImmutableBytesWritable>();
@@ -192,9 +196,9 @@ public class IndexBuilder {
 	public static String converScanToString(Scan scan) throws IOException{
 		//ByteArrayOutputStream out = new ByteArrayOutputStream();
 		//DataOutputStream dos = new DataOutputStream(out);
-		ClientProtos.Scan proto = ProtobufUtil.toScan(scan);
 		//scan.write(dos);
 		//return Base64.encodeBytes(out.toByteArray());
+		ClientProtos.Scan proto = ProtobufUtil.toScan(scan);
 		return Base64.encodeBytes(proto.toByteArray());
 	}
 	

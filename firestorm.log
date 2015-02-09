@@ -1,913 +1,1102 @@
-Call: getJobReport took 7ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #100
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #100
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #101
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #101
 Call: getTaskAttemptCompletionEvents took 5ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #102
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #102
-Call: getJobReport took 4ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #103
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #103
-Call: getJobReport took 10ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #104
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #104
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #105
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #105
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #106
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #106
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #107
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #107
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #108
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #108
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #109
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #109
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #110
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #110
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #111
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #111
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #129
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #129
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #112
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #112
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #130
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #130
 Call: getJobReport took 2ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #113
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #113
-Call: getTaskAttemptCompletionEvents took 2ms
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #131
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #131
+Call: getTaskAttemptCompletionEvents took 168ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #114
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #114
-Call: getJobReport took 1ms
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #132
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #132
+Call: getJobReport took 2ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #115
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #115
-Call: getJobReport took 1ms
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #133
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #133
+Call: getJobReport took 9ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #116
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #116
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #134
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #134
 Call: getTaskAttemptCompletionEvents took 8ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #117
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #117
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #118
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #118
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #119
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #119
-Call: getTaskAttemptCompletionEvents took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #120
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #120
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #121
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #121
-Call: getJobReport took 4ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #122
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #122
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #123
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #123
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #124
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #124
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #125
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #125
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #126
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #126
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #127
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #127
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #128
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #128
-Call: getTaskAttemptCompletionEvents took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #129
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #129
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #130
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #130
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #131
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #131
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #132
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #132
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #133
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #133
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #135
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #135
 Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #134
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #134
-Call: getTaskAttemptCompletionEvents took 70ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #135
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #135
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #136
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #136
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #136
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #136
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #137
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #137
-Call: getTaskAttemptCompletionEvents took 51ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #138
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #138
-Call: getJobReport took 19ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #139
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #139
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #140
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #140
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #137
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #137
 Call: getTaskAttemptCompletionEvents took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #141
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #141
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #138
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #138
 Call: getJobReport took 2ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #142
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #142
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #139
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #139
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #143
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #143
-Call: getTaskAttemptCompletionEvents took 16ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #144
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #144
-Call: getJobReport took 11ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #145
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #145
-Call: getJobReport took 11ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #146
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #146
-Call: getTaskAttemptCompletionEvents took 14ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #147
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #147
-Call: getJobReport took 31ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #148
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #148
-Call: getJobReport took 10ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #149
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #149
-Call: getTaskAttemptCompletionEvents took 110ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #150
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #150
-Call: getJobReport took 8ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #151
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #151
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #152
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #152
-Call: getTaskAttemptCompletionEvents took 25ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #153
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #153
-Call: getJobReport took 11ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #154
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #154
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #155
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #155
-Call: getTaskAttemptCompletionEvents took 20ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #156
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #156
-Call: getJobReport took 14ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #157
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #157
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #158
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #158
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #140
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #140
 Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #159
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #159
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #160
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #160
-Call: getJobReport took 1ms
-Lease renewer daemon for [] with renew id 1 executed
-Got ping response for sessionid: 0x14b39b131720003 after 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #161
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #161
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #162
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #162
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #163
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #163
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #164
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #164
-Call: getTaskAttemptCompletionEvents took 2ms
-Task Id : attempt_1422589044103_0001_m_000000_0, Status : FAILED
+Task Id : attempt_1422850593550_0004_m_000000_1, Status : FAILED
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskDiagnostics(Job.java:774)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #165
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #165
-Call: getDiagnostics took 34ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #166
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #166
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #167
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #167
-Call: getJobReport took 1ms
-Lease renewer daemon for [] with renew id 1 expired
-Lease renewer daemon for [] with renew id 1 exited
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #168
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #168
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #169
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #169
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #170
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #170
-Call: getJobReport took 8ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #171
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #171
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #172
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #172
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #173
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #173
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #174
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #174
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #175
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #175
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #176
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #176
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #177
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #177
-Call: getTaskAttemptCompletionEvents took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #178
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #178
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #179
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #179
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #180
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #180
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #181
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #181
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #182
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #182
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #183
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #183
-Call: getTaskAttemptCompletionEvents took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #184
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #184
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #185
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #185
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #186
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #186
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #187
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #187
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #188
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #188
-Call: getJobReport took 18ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #189
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #189
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #190
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #190
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #191
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #191
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #192
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #192
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #193
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #193
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #194
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #194
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #195
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #195
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #196
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #196
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #197
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #197
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #198
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #198
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #199
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #199
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #200
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #200
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #201
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #201
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #202
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #202
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #203
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #203
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #204
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #204
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #205
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #205
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #206
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #206
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #207
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #207
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #208
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #208
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #209
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #209
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #210
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #210
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #211
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #211
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #212
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #212
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #213
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #213
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #214
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #214
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #215
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #215
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #216
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #216
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #217
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #217
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #218
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #218
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #219
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #219
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #220
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #220
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #221
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #221
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #222
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #222
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #223
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #223
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #224
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #224
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #225
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #225
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #226
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #226
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #227
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #227
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #228
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #228
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #229
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #229
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #230
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #230
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #231
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #231
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #232
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #232
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #233
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #233
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #234
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #234
-Call: getTaskAttemptCompletionEvents took 148ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #235
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #235
-Call: getJobReport took 794ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #236
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #236
-Call: getJobReport took 460ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #237
-Got ping response for sessionid: 0x14b39b131720003 after 284ms
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #237
-Call: getTaskAttemptCompletionEvents took 3810ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #238
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #238
-Call: getJobReport took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #239
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #239
-Call: getJobReport took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #240
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #240
-Call: getTaskAttemptCompletionEvents took 131ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #241
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #241
-Call: getJobReport took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #242
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #242
-Call: getJobReport took 1093ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #243
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #243
-Call: getTaskAttemptCompletionEvents took 646ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #244
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #244
-Call: getJobReport took 8ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #245
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #245
-Call: getJobReport took 167ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #246
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #246
-Call: getTaskAttemptCompletionEvents took 364ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #247
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #247
-Call: getJobReport took 532ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #248
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #248
-Call: getJobReport took 90ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #249
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #249
-Call: getTaskAttemptCompletionEvents took 21ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #250
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #250
-Call: getJobReport took 10ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #251
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #251
-Call: getJobReport took 20ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #252
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #252
-Call: getTaskAttemptCompletionEvents took 16ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #253
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #253
-Call: getJobReport took 87ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #254
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #254
-Call: getJobReport took 13ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #255
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #255
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #256
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #256
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #257
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #257
-Call: getJobReport took 10ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #258
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #258
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #259
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #259
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #260
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #260
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #261
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #261
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #262
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #262
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #263
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #263
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #264
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #264
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #265
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #265
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #266
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #266
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #267
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #267
-Call: getTaskAttemptCompletionEvents took 0ms
-Task Id : attempt_1422589044103_0001_m_000000_1, Status : FAILED
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskDiagnostics(Job.java:774)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #268
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #268
-Call: getDiagnostics took 6ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #269
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #269
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #270
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #270
-Call: getJobReport took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #271
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #271
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #272
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #272
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #273
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #273
-Call: getJobReport took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #274
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #274
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #275
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #275
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #276
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #276
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #277
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #277
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #278
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #278
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #279
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #279
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #280
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #280
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #281
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #281
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #282
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #282
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #283
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #283
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #284
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #284
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #285
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #285
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #286
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #286
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #287
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #287
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #288
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #288
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #289
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #289
-Call: getTaskAttemptCompletionEvents took 1ms
-Task Id : attempt_1422589044103_0001_m_000000_2, Status : FAILED
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskDiagnostics(Job.java:774)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #290
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #290
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #141
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #141
 Call: getDiagnostics took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #291
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #291
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #292
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #292
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #293
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #293
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #294
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #294
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #295
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #295
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #296
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #296
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #297
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #297
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #298
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #298
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #299
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #299
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #300
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #300
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #142
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #142
 Call: getJobReport took 2ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #301
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #301
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #143
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #143
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #302
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #302
-Call: getTaskAttemptCompletionEvents took 1ms
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #144
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #144
+Call: getTaskAttemptCompletionEvents took 23ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #303
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #303
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #145
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #145
 Call: getJobReport took 2ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #304
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #304
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #146
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #146
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #305
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #305
-Call: getTaskAttemptCompletionEvents took 4ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #306
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #306
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #307
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #307
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #308
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #308
-Call: getTaskAttemptCompletionEvents took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #309
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #309
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #310
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #310
-Call: getJobReport took 1ms
- map 100% reduce 0%
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #311
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #311
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #147
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #147
 Call: getTaskAttemptCompletionEvents took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #312
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #312
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #148
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #148
 Call: getJobReport took 1ms
 PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #313
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #313
-Call: getJobReport took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #314
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #314
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #315
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #315
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #149
+IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #149
 Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #316
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #316
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #317
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #317
-Call: getTaskAttemptCompletionEvents took 0ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #318
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #318
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #319
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #319
-Call: getJobReport took 1ms
-Job job_1422589044103_0001 failed with state FAILED due to: Task failed task_1422589044103_0001_m_000000
-Job failed as tasks failed. failedMaps:1 failedReduces:0
-
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getCounters(Job.java:753)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #320
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #320
-Call: getCounters took 38ms
-Counters: 9
-	Job Counters 
-		Failed map tasks=4
-		Launched map tasks=4
-		Other local map tasks=3
-		Data-local map tasks=1
-		Total time spent by all maps in occupied slots (ms)=72006
-		Total time spent by all reduces in occupied slots (ms)=0
-		Total time spent by all map tasks (ms)=72006
-		Total vcore-seconds taken by all map tasks=72006
-		Total megabyte-seconds taken by all map tasks=73734144
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop sending #321
-IPC Client (318857719) connection to Slaver1.Hadoop/192.168.216.132:48582 from hadoop got value #321
-Call: getJobReport took 1ms
-stopping client from cache: org.apache.hadoop.ipc.Client@69504ae9
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+/: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+/output: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 54ms
+Set non-null progress callback on DFSOutputStream /output
+computePacketChunkSize: src=/output, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1830139889_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/output, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 2ms
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.132:50010
+Send buf size 131072
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2301412
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3227341
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
+getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/sample.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 40ms
+Set non-null progress callback on DFSOutputStream /input/sample.txt
+computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1876889424_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 2ms
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.134:50010
+Send buf size 131072
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2280047
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2940211
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 6ms
+stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
+removing client from cache: org.apache.hadoop.ipc.Client@57175e74
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+Stopping client
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/fruit.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 129ms
+Set non-null progress callback on DFSOutputStream /input/fruit.txt
+computePacketChunkSize: src=/input/fruit.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_316073388_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/fruit.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 25ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 3ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 35
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2296392
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122 sending packet packet seqno:1 offsetInBlock:35 lastPacketInBlock:true lastByteOffsetInBlock: 35
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3298639
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 3ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/Trim.jar: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 41ms
+Set non-null progress callback on DFSOutputStream /input/Trim.jar
+computePacketChunkSize: src=/input/Trim.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1394147858_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/Trim.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 3ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 995
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2659460
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123 sending packet packet seqno:1 offsetInBlock:995 lastPacketInBlock:true lastByteOffsetInBlock: 995
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3246584
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/user/hadoop/Trim.jar: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 42ms
+Set non-null progress callback on DFSOutputStream /user/hadoop/Trim.jar
+computePacketChunkSize: src=/user/hadoop/Trim.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-916483979_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/user/hadoop/Trim.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 4ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 995
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2672714
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125 sending packet packet seqno:1 offsetInBlock:995 lastPacketInBlock:true lastByteOffsetInBlock: 995
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2954141
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/sample.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 44ms
+Set non-null progress callback on DFSOutputStream /sample.txt
+computePacketChunkSize: src=/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1162896385_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 2ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 2ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2506941
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3275667
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 15ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/sample.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 43ms
+Set non-null progress callback on DFSOutputStream /input/sample.txt
+computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1463267671_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 8ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1794088
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4618265
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/sample.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 43ms
+Set non-null progress callback on DFSOutputStream /input/sample.txt
+computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-290159213_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 14ms
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.134:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2050340
+DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2662374
+Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 3ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/sample1.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 116ms
+Set non-null progress callback on DFSOutputStream /input/sample1.txt
+computePacketChunkSize: src=/input/sample1.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1563096539_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/sample1.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 33ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 10ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 52
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 47107383
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001 sending packet packet seqno:1 offsetInBlock:52 lastPacketInBlock:true lastByteOffsetInBlock: 52
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 22290579
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 184ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/A.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 44ms
+Set non-null progress callback on DFSOutputStream /input/A.txt
+computePacketChunkSize: src=/input/A.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1272930795_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/A.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 4ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.132:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 29
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2033279
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058 sending packet packet seqno:1 offsetInBlock:29 lastPacketInBlock:true lastByteOffsetInBlock: 29
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 16054661
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/B.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 41ms
+Set non-null progress callback on DFSOutputStream /input/B.txt
+computePacketChunkSize: src=/input/B.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-2075263533_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/B.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 11ms
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.133:50010
+Connecting to datanode 192.168.216.132:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 35
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1829814
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059 sending packet packet seqno:1 offsetInBlock:35 lastPacketInBlock:true lastByteOffsetInBlock: 35
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2639349
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 12ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/userinfo.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 644ms
+Set non-null progress callback on DFSOutputStream /input/userinfo.txt
+computePacketChunkSize: src=/input/userinfo.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1073825091_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/userinfo.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 562ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742197_1373 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 30
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 95906325
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742197_1373 sending packet packet seqno:1 offsetInBlock:30 lastPacketInBlock:true lastByteOffsetInBlock: 30
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 14979060
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 1939ms
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #4
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #4
+Call: complete took 56ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/choice.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 67ms
+Set non-null progress callback on DFSOutputStream /input/choice.txt
+computePacketChunkSize: src=/input/choice.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1292733768_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/choice.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Allocating new block
+Waiting for ack for: 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 6ms
+pipeline = 192.168.216.133:50010
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+Connecting to datanode 192.168.216.133:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 0ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 57
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4836804
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374 sending packet packet seqno:1 offsetInBlock:57 lastPacketInBlock:true lastByteOffsetInBlock: 57
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4284262
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 6ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
+UgiMetrics, User and group related metrics
+Kerberos krb5 configuration not found, setting default realm to empty
+ Creating new Groups object
+Trying to load the custom-built native-hadoop library...
+Loaded the native-hadoop library
+Using JniBasedUnixGroupsMapping for Group resolution
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
+Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+hadoop login
+hadoop login commit
+using local user:NTUserPrincipal: hadoop
+UGI loginUser:hadoop (auth:SIMPLE)
+dfs.client.use.legacy.blockreader.local = false
+dfs.client.read.shortcircuit = false
+dfs.client.domain.socket.data.traffic = false
+dfs.domain.socket.path = 
+multipleLinearRandomRetry = null
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
+getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+Both short-circuit local reads and UNIX domain socket are disabled.
+/input/classinfo.txt: masked=rw-r--r--
+The ping interval is 60000 ms.
+Connecting to Master.hadoop/192.168.216.130:9000
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 43ms
+Set non-null progress callback on DFSOutputStream /input/classinfo.txt
+computePacketChunkSize: src=/input/classinfo.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1649123773_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/classinfo.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Queued packet 0
+Queued packet 1
+Waiting for ack for: 1
+Allocating new block
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 2ms
+pipeline = 192.168.216.132:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.133:50010
+Connecting to datanode 192.168.216.132:50010
+Send buf size 131072
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 0ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 34
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 6599089
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375 sending packet packet seqno:1 offsetInBlock:34 lastPacketInBlock:true lastByteOffsetInBlock: 34
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3199121
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 3ms
+stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
+removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+Stopping client
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0

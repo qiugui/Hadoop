@@ -1,0 +1,19 @@
+Apache pig 的一些UDF模式
+
+grunt>REGISTER path;
+/*path The path to the JAR file (the full location URI is required). Do not place the name in quotes.*/
+
+grunt>DEFINE funcName packageName.ClassName();
+
+
+1.IsGoodQuality.java
+
+	过滤UDF
+	
+2.Trim.java
+
+	计算UDF
+	
+3.CutLoadFunc.java
+
+	加载UDF
