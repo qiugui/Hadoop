@@ -1,196 +1,3 @@
-Call: getTaskAttemptCompletionEvents took 5ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #129
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #129
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #130
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #130
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #131
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #131
-Call: getTaskAttemptCompletionEvents took 168ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #132
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #132
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #133
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #133
-Call: getJobReport took 9ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #134
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #134
-Call: getTaskAttemptCompletionEvents took 8ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #135
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #135
-Call: getJobReport took 3ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #136
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #136
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #137
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #137
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #138
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #138
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #139
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #139
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #140
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #140
-Call: getTaskAttemptCompletionEvents took 1ms
-Task Id : attempt_1422850593550_0004_m_000000_1, Status : FAILED
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskDiagnostics(Job.java:774)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #141
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #141
-Call: getDiagnostics took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #142
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #142
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #143
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #143
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #144
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #144
-Call: getTaskAttemptCompletionEvents took 23ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #145
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #145
-Call: getJobReport took 2ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #146
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #146
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.getTaskCompletionEvents(Job.java:665)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #147
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #147
-Call: getTaskAttemptCompletionEvents took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #148
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #148
-Call: getJobReport took 1ms
-PrivilegedAction as:hadoop (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop sending #149
-IPC Client (651100072) connection to Slaver3.Hadoop/192.168.216.134:50331 from hadoop got value #149
-Call: getJobReport took 1ms
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
-Stopping client
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
-Stopping client
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
-Both short-circuit local reads and UNIX domain socket are disabled.
-/: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
-Stopping client
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
 UgiMetrics, User and group related metrics
 Kerberos krb5 configuration not found, setting default realm to empty
@@ -209,139 +16,49 @@ dfs.client.read.shortcircuit = false
 dfs.client.domain.socket.data.traffic = false
 dfs.domain.socket.path = 
 multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@58c1c010
+getting client out of cache: org.apache.hadoop.ipc.Client@1a052a00
 Both short-circuit local reads and UNIX domain socket are disabled.
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
-Stopping client
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
-Both short-circuit local reads and UNIX domain socket are disabled.
-/output: masked=rw-r--r--
+/input/Average.jar: masked=rw-r--r--
 The ping interval is 60000 ms.
 Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 54ms
-Set non-null progress callback on DFSOutputStream /output
-computePacketChunkSize: src=/output, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1830139889_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/output, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 138ms
+Set non-null progress callback on DFSOutputStream /input/Average.jar
+computePacketChunkSize: src=/input/Average.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_-930824178_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/Average.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
 Queued packet 0
 Queued packet 1
-Waiting for ack for: 1
 Allocating new block
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 2ms
+Waiting for ack for: 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 21ms
 pipeline = 192.168.216.132:50010
 pipeline = 192.168.216.133:50010
 pipeline = 192.168.216.134:50010
 Connecting to datanode 192.168.216.132:50010
 Send buf size 131072
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2301412
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3227341
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742640_1816
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 2ms
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 2ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742469_1645 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 2192
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2849393
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742469_1645 sending packet packet seqno:1 offsetInBlock:2192 lastPacketInBlock:true lastByteOffsetInBlock: 2192
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 20230207
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742469_1645
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 7ms
+stopping client from cache: org.apache.hadoop.ipc.Client@1a052a00
+removing client from cache: org.apache.hadoop.ipc.Client@1a052a00
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@1a052a00
 Stopping client
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@3d36e4cd
-getting client out of cache: org.apache.hadoop.ipc.Client@57175e74
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/sample.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 40ms
-Set non-null progress callback on DFSOutputStream /input/sample.txt
-computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1876889424_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 2ms
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.134:50010
-Send buf size 131072
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2280047
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2940211
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073742641_1817
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 6ms
-stopping client from cache: org.apache.hadoop.ipc.Client@57175e74
-removing client from cache: org.apache.hadoop.ipc.Client@57175e74
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@57175e74
-Stopping client
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (1561408618) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
@@ -362,52 +79,52 @@ dfs.client.read.shortcircuit = false
 dfs.client.domain.socket.data.traffic = false
 dfs.domain.socket.path = 
 multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@58c1c010
+getting client out of cache: org.apache.hadoop.ipc.Client@1a052a00
 Both short-circuit local reads and UNIX domain socket are disabled.
-/input/fruit.txt: masked=rw-r--r--
+/input/Average.jar: masked=rw-r--r--
 The ping interval is 60000 ms.
 Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 129ms
-Set non-null progress callback on DFSOutputStream /input/fruit.txt
-computePacketChunkSize: src=/input/fruit.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_316073388_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/fruit.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 42ms
+Set non-null progress callback on DFSOutputStream /input/Average.jar
+computePacketChunkSize: src=/input/Average.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1462562755_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/Average.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
 Queued packet 0
 Queued packet 1
 Waiting for ack for: 1
 Allocating new block
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 25ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.134:50010
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Call: addBlock took 3ms
 pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.133:50010
+pipeline = 192.168.216.134:50010
+pipeline = 192.168.216.133:50010
+Connecting to datanode 192.168.216.132:50010
 Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 3ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 35
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2296392
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122 sending packet packet seqno:1 offsetInBlock:35 lastPacketInBlock:true lastByteOffsetInBlock: 35
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3298639
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741946_1122
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 3ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+Call: getServerDefaults took 1ms
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742500_1676 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 2191
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 5890848
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742500_1676 sending packet packet seqno:1 offsetInBlock:2191 lastPacketInBlock:true lastByteOffsetInBlock: 2191
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3063076
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742500_1676
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 2ms
+stopping client from cache: org.apache.hadoop.ipc.Client@1a052a00
+removing client from cache: org.apache.hadoop.ipc.Client@1a052a00
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@1a052a00
 Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
+field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
 UgiMetrics, User and group related metrics
 Kerberos krb5 configuration not found, setting default realm to empty
  Creating new Groups object
@@ -425,49 +142,49 @@ dfs.client.read.shortcircuit = false
 dfs.client.domain.socket.data.traffic = false
 dfs.domain.socket.path = 
 multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@58c1c010
+getting client out of cache: org.apache.hadoop.ipc.Client@1a052a00
 Both short-circuit local reads and UNIX domain socket are disabled.
-/input/Trim.jar: masked=rw-r--r--
+/input/Average.jar: masked=rw-r--r--
 The ping interval is 60000 ms.
 Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 41ms
-Set non-null progress callback on DFSOutputStream /input/Trim.jar
-computePacketChunkSize: src=/input/Trim.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1394147858_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/Trim.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+Call: create took 50ms
+Set non-null progress callback on DFSOutputStream /input/Average.jar
+computePacketChunkSize: src=/input/Average.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1604138428_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/Average.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
 Queued packet 0
 Queued packet 1
-Waiting for ack for: 1
 Allocating new block
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+Waiting for ack for: 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
 Call: addBlock took 3ms
 pipeline = 192.168.216.133:50010
 pipeline = 192.168.216.134:50010
 pipeline = 192.168.216.132:50010
 Connecting to datanode 192.168.216.133:50010
 Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
 Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 995
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2659460
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123 sending packet packet seqno:1 offsetInBlock:995 lastPacketInBlock:true lastByteOffsetInBlock: 995
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3246584
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741947_1123
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742501_1677 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 2107
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 9066569
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742501_1677 sending packet packet seqno:1 offsetInBlock:2107 lastPacketInBlock:true lastByteOffsetInBlock: 2107
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2237907
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742501_1677
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
 Call: complete took 2ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+stopping client from cache: org.apache.hadoop.ipc.Client@1a052a00
+removing client from cache: org.apache.hadoop.ipc.Client@1a052a00
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@1a052a00
 Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
 field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
@@ -488,615 +205,46 @@ dfs.client.read.shortcircuit = false
 dfs.client.domain.socket.data.traffic = false
 dfs.domain.socket.path = 
 multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
+rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@58c1c010
+getting client out of cache: org.apache.hadoop.ipc.Client@1a052a00
 Both short-circuit local reads and UNIX domain socket are disabled.
-/user/hadoop/Trim.jar: masked=rw-r--r--
+/input/Average.jar: masked=rw-r--r--
 The ping interval is 60000 ms.
 Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 42ms
-Set non-null progress callback on DFSOutputStream /user/hadoop/Trim.jar
-computePacketChunkSize: src=/user/hadoop/Trim.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-916483979_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/user/hadoop/Trim.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 4ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 995
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2672714
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125 sending packet packet seqno:1 offsetInBlock:995 lastPacketInBlock:true lastByteOffsetInBlock: 995
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2954141
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741949_1125
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 2ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/sample.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 44ms
-Set non-null progress callback on DFSOutputStream /sample.txt
-computePacketChunkSize: src=/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1162896385_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Waiting for ack for: 1
-Allocating new block
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 2ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 2ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2506941
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3275667
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741980_1156
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 15ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, always=false, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/sample.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 43ms
-Set non-null progress callback on DFSOutputStream /input/sample.txt
-computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1463267671_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 8ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1794088
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4618265
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741981_1157
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 2ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/sample.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 43ms
-Set non-null progress callback on DFSOutputStream /input/sample.txt
-computePacketChunkSize: src=/input/sample.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-290159213_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/sample.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 14ms
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.134:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 54
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2050340
-DataStreamer block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158 sending packet packet seqno:1 offsetInBlock:54 lastPacketInBlock:true lastByteOffsetInBlock: 54
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2662374
-Closing old block BP-119039429-192.168.216.130-1421202960140:blk_1073741982_1158
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 3ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, sampleName=Ops, about=, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/sample1.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 116ms
-Set non-null progress callback on DFSOutputStream /input/sample1.txt
-computePacketChunkSize: src=/input/sample1.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1563096539_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/sample1.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 33ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 10ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 52
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 47107383
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001 sending packet packet seqno:1 offsetInBlock:52 lastPacketInBlock:true lastByteOffsetInBlock: 52
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 22290579
-Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741825_1001
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 184ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/A.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 44ms
-Set non-null progress callback on DFSOutputStream /input/A.txt
-computePacketChunkSize: src=/input/A.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1272930795_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/A.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Waiting for ack for: 1
-Allocating new block
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 4ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.132:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 29
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2033279
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058 sending packet packet seqno:1 offsetInBlock:29 lastPacketInBlock:true lastByteOffsetInBlock: 29
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 16054661
-Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741882_1058
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 2ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(about=, sampleName=Ops, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/B.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
 Call: create took 41ms
-Set non-null progress callback on DFSOutputStream /input/B.txt
-computePacketChunkSize: src=/input/B.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-2075263533_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/B.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+Set non-null progress callback on DFSOutputStream /input/Average.jar
+computePacketChunkSize: src=/input/Average.jar, chunkSize=516, chunksPerPacket=127, packetSize=65532
+Lease renewer daemon for [DFSClient_NONMAPREDUCE_1144798794_1] with renew id 1 started
+DFSClient writeChunk allocating new packet seqno=0, src=/input/Average.jar, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
 Queued packet 0
 Queued packet 1
 Allocating new block
 Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
 Call: addBlock took 11ms
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-Connecting to datanode 192.168.216.132:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 1ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 35
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 1829814
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059 sending packet packet seqno:1 offsetInBlock:35 lastPacketInBlock:true lastByteOffsetInBlock: 35
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 2639349
-Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073741883_1059
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 12ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/userinfo.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 644ms
-Set non-null progress callback on DFSOutputStream /input/userinfo.txt
-computePacketChunkSize: src=/input/userinfo.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1073825091_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/userinfo.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 562ms
 pipeline = 192.168.216.133:50010
 pipeline = 192.168.216.132:50010
 pipeline = 192.168.216.134:50010
 Connecting to datanode 192.168.216.133:50010
 Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
 Call: getServerDefaults took 1ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742197_1373 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 30
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 95906325
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742197_1373 sending packet packet seqno:1 offsetInBlock:30 lastPacketInBlock:true lastByteOffsetInBlock: 30
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 14979060
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 1939ms
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #4
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #4
-Call: complete took 56ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742502_1678 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 2107
+DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4945889
+DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742502_1678 sending packet packet seqno:1 offsetInBlock:2107 lastPacketInBlock:true lastByteOffsetInBlock: 2107
+DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3435786
+Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742502_1678
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
+Call: complete took 5ms
+stopping client from cache: org.apache.hadoop.ipc.Client@1a052a00
+removing client from cache: org.apache.hadoop.ipc.Client@1a052a00
+stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@1a052a00
 Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(sampleName=Ops, about=, always=false, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/choice.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 67ms
-Set non-null progress callback on DFSOutputStream /input/choice.txt
-computePacketChunkSize: src=/input/choice.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_1292733768_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/choice.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Allocating new block
-Waiting for ack for: 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 6ms
-pipeline = 192.168.216.133:50010
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-Connecting to datanode 192.168.216.133:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 0ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 57
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4836804
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374 sending packet packet seqno:1 offsetInBlock:57 lastPacketInBlock:true lastByteOffsetInBlock: 57
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 4284262
-Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742198_1374
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 6ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of successful kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[Rate of failed kerberos logins and latency (milliseconds)], valueName=Time)
-field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(always=false, about=, sampleName=Ops, type=DEFAULT, value=[GetGroups], valueName=Time)
-UgiMetrics, User and group related metrics
-Kerberos krb5 configuration not found, setting default realm to empty
- Creating new Groups object
-Trying to load the custom-built native-hadoop library...
-Loaded the native-hadoop library
-Using JniBasedUnixGroupsMapping for Group resolution
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMapping
-Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
-hadoop login
-hadoop login commit
-using local user:NTUserPrincipal: hadoop
-UGI loginUser:hadoop (auth:SIMPLE)
-dfs.client.use.legacy.blockreader.local = false
-dfs.client.read.shortcircuit = false
-dfs.client.domain.socket.data.traffic = false
-dfs.domain.socket.path = 
-multipleLinearRandomRetry = null
-rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@7ff2a664
-getting client out of cache: org.apache.hadoop.ipc.Client@c540f5a
-Both short-circuit local reads and UNIX domain socket are disabled.
-/input/classinfo.txt: masked=rw-r--r--
-The ping interval is 60000 ms.
-Connecting to Master.hadoop/192.168.216.130:9000
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: starting, having connections 1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #0
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #0
-Call: create took 43ms
-Set non-null progress callback on DFSOutputStream /input/classinfo.txt
-computePacketChunkSize: src=/input/classinfo.txt, chunkSize=516, chunksPerPacket=127, packetSize=65532
-Lease renewer daemon for [DFSClient_NONMAPREDUCE_-1649123773_1] with renew id 1 started
-DFSClient writeChunk allocating new packet seqno=0, src=/input/classinfo.txt, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
-Queued packet 0
-Queued packet 1
-Waiting for ack for: 1
-Allocating new block
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #1
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #1
-Call: addBlock took 2ms
-pipeline = 192.168.216.132:50010
-pipeline = 192.168.216.134:50010
-pipeline = 192.168.216.133:50010
-Connecting to datanode 192.168.216.132:50010
-Send buf size 131072
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #2
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #2
-Call: getServerDefaults took 0ms
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 34
-DFSClient seqno: 0 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 6599089
-DataStreamer block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375 sending packet packet seqno:1 offsetInBlock:34 lastPacketInBlock:true lastByteOffsetInBlock: 34
-DFSClient seqno: 1 status: SUCCESS status: SUCCESS status: SUCCESS downstreamAckTimeNanos: 3199121
-Closing old block BP-383539583-192.168.216.130-1423042990925:blk_1073742199_1375
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop sending #3
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop got value #3
-Call: complete took 3ms
-stopping client from cache: org.apache.hadoop.ipc.Client@c540f5a
-removing client from cache: org.apache.hadoop.ipc.Client@c540f5a
-stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@c540f5a
-Stopping client
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
-IPC Client (388043093) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: closed
+IPC Client (1608230649) connection to Master.hadoop/192.168.216.130:9000 from hadoop: stopped, remaining connections 0

@@ -220,5 +220,6 @@
 	<classpathentry kind="lib" path="D:/软件/hadoop/hadoop-jar/hbase/slf4j-api-1.6.4.jar"/>
 	<classpathentry kind="lib" path="D:/软件/hadoop/hadoop-jar/hbase/slf4j-log4j12-1.6.4.jar"/>
 	<classpathentry kind="lib" path="D:/Documents/pig-0.14.0-core-h2.jar"/>
+	<classpathentry kind="lib" path="D:/软件/hadoop/hadoop-jar/hive/hive-exec-0.14.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
