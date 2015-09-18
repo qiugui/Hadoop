@@ -355,6 +355,8 @@ public class MyApp extends Configured implements Tool{
 		conf.set("fs.defaultFS", "hdfs://192.168.216.130:9000");
 		conf.set("yarn.resourcemanager.address", "192.168.216.130:8032");
 		conf.set("mapreduce.framework.name", "yarn");
+		//Error:/bin/bash: line 0: fg: no job control
+		conf.set("mapreduce.app-submission.cross-platform", "true");
 		conf.set("mapred.jar", "D:\\Documents\\workspace-sts-3.6.1.RELEASE\\Hadoop\\WordCount.jar");
         
         Job job = Job.getInstance(conf, "MyApp");
